@@ -199,6 +199,7 @@ import AddApartment from "./pages/AddApartment"
 </Router>
 ```
 - **Routing Constraints**
+
 Rails has a router, and now added React Router. These two routers could come into conflict. Reals路由会和React路由发生冲突。Here need to clearly separate the Rails routing responsibilities, and the React routing responsibilities. 
 
 Here to build a single page app. This, by definition, means that all HTML traffic goes to just one page. All other types of requests though, will need to be routed by the Rails app. 
@@ -286,6 +287,7 @@ $ rails generate devise User
 $ rails db:migrate
 ```
 - **Add mailer settings**
+
 Here need to set up the default URL options for the Devise mailer in each environment. 
 
 *config/environments/development.rb* , add the following code at the end of the previous code inside the file:
@@ -300,11 +302,34 @@ Navigate to `http://localhost:3000/users/sign_in` and see a log in page.
 Navigate to `http://localhost:3000/users/sign_up` and see a sign up page.
 
 - **Apartment Resource**
+
 The Devise User model is going to have an association with the Apartment model. In this situation, the User will have many apartments and the Apartments will belong to a User.
 ```
 $ rails g resource Apartment street:string city:string state:string manager:string email:string 
 price:string bedrooms:integer bathrooms:integer pets:string user_id:integer
 $ rails db:migrate
+```
+
+- **User and Apartment Associations**
+
+The Apartments will belong to a User and a User will have many apartments.
+
+**app/models/apartment.rb**
+```ruby
+class Apartment < ApplicationRecord
+  belongs_to :user
+end
+```
+
+**app/models/user.rb**
+```ruby
+class User < ApplicationRecord
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :validatable
+  has_many :apartments
+end
 ```
 
 - Branch: adding-devise
