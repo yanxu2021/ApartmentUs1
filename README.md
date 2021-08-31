@@ -1,7 +1,6 @@
 # ApartmentUs
-There are many ways to create a full-stack application. 
 
-This is project using Ruby on Rails to host React components in a monolithic application,and using Devise, a Ruby gem to create user login.
+This project uses Ruby on Rails to host React components in a monolithic application,and Devise, a Ruby gem to create user login.
 
 ### Setup
 - Made a Rails app, and db
