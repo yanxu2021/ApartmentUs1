@@ -1,19 +1,18 @@
 ### Challenge 2 - Set Up
-- **Create new app**
-
+#### Create new app
 ```
 $ rails new apartment_us -d postgresql -T
 $ cd apartment_us
 $ rails db:create
 ```
-- **Add the remote from github, created default branch**
+#### Add the remote from github, created default branch
 ```
 $git remote add origin GitHubLink
 $git checkout -b main
 $git push origin main
 ```
-*注意：如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
-切记：一定要注意建立main branch，后续pull request要与main进行compare。*
+- 注意：如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
+- 切记：一定要注意建立main branch，后续pull request要与main进行compare。*
 - **Add React to the Rails application and adding Webpacker to compile JavaScript.**
 ```
 $ bundle add react-rails
@@ -21,7 +20,7 @@ $ rails webpacker:install
 $ rails webpacker:install:react
 $ rails generate react:install
 ```
-- **Troubleshooting Tips**
+#### Troubleshooting Tips
 Now that we are working in a new stack, the way we find error messages is going to look a little bit different. We are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 ```
 - Stop the server and start it again.
@@ -50,7 +49,8 @@ Add an `h1` tag to the React component
   }
 ```
 
-- **Generate a controller** so that we can route the React component can be rendered in a Rails view. This is the only Rails view we will make. Everything else will come from the React components.
+#### Generate a controller
+Generate a controller so that we can route the React component can be rendered in a Rails view. This is the only Rails view we will make. Everything else will come from the React components.
 ```
 $ `rails g controller Home`
 ```
