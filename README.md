@@ -60,7 +60,7 @@ $ cd apartment_us
 $ rails db:create
 ```
 
-Added the remote from github, created default branch
+- **Added the remote from github, created default branch**
 ```
 $git remote add origin GitHubLink
 $git checkout -b main
