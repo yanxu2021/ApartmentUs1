@@ -33,7 +33,7 @@ As a developer, I have been commissioned to create an application where a user c
 **Story:**: As a logged in user, I can edit the information for any apartment I have created, but I cannot edit the information for apartments that belong to someone else
 
 ## Process
-<hr>
+
 #### Challenge 1 - Planning
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
@@ -48,6 +48,7 @@ As a developer, I have been commissioned to create an application where a user c
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user?
 <hr>
+
 #### Challenge 2 - Set Up
 - **Create new app**
 
@@ -261,7 +262,6 @@ class App extends React.Component{
 }
 export default App
 ```
-<hr>
 
 - **Git add/commit/push to new branch-setup**
 ```
@@ -273,6 +273,7 @@ $ git push origin setup
 ```
 - **Pull request and review or waiting for review, then merge and delete the branch"
 <hr>
+
 #### Challenge 3 - Authentication
 A key component of web applications is the ability for a user to log in. This requires using the Devise gem to create authentication and authorization for a Rails application.
 - **Add RSpec**
@@ -335,12 +336,13 @@ end
 
 - Branch: adding-devise
 
-
+<hr>
 
 #### Challenge 4 - Main UI
 - Implement your main UI pages in your single page application
 - Use data mocks to work with real data, but without the complexity of API integration
 <hr>
+
 #### Challenge 5 - API
 - Finish off your application by hooking up the Database via API endpoints
 - Is everything secure?
