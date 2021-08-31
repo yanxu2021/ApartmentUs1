@@ -33,6 +33,7 @@ As a developer, I have been commissioned to create an application where a user c
 **Story:**: As a logged in user, I can edit the information for any apartment I have created, but I cannot edit the information for apartments that belong to someone else
 
 ## Process
+<hr>
 #### Challenge 1 - Planning
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
@@ -46,6 +47,7 @@ As a developer, I have been commissioned to create an application where a user c
 - Protected vs. unprotected pages?
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user?
+<hr>
 #### Challenge 2 - Set Up
 - **Create new app**
 
@@ -77,7 +79,6 @@ Now that we are working in a new stack, the way we find error messages is going 
 - Seeing a blank page? Look for errors in the terminal or inspect your page.
 - Errors? Always look at the first error in the list.
 ```
-<hr>
 
 There are many ways to create a full-stack application.  Once we have a Rails application we can **add a React component** using a generate command.
 ```
@@ -271,7 +272,7 @@ $ git commit -m "complete setup"
 $ git push origin setup
 ```
 - **Pull request and review or waiting for review, then merge and delete the branch"
-
+<hr>
 #### Challenge 3 - Authentication
 A key component of web applications is the ability for a user to log in. This requires using the Devise gem to create authentication and authorization for a Rails application.
 - **Add RSpec**
@@ -339,9 +340,11 @@ end
 #### Challenge 4 - Main UI
 - Implement your main UI pages in your single page application
 - Use data mocks to work with real data, but without the complexity of API integration
+<hr>
 #### Challenge 5 - API
 - Finish off your application by hooking up the Database via API endpoints
 - Is everything secure?
+<hr>
 
 
 
