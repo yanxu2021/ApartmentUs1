@@ -261,8 +261,49 @@ export default App
 ```
 <hr>
 
+- **Git add/commit/push to new branch-setup**
+```
+$ git status
+$ git checkout -b setup
+$ git add .
+$ git commit -m "complete setup"
+$ git push origin setup
+```
+- **Pull request and review or waiting for review, then merge and delete the branch"
+
 #### Challenge 3 - Authentication
-- Implement your authentication code, with stubbed out main pages
+A key component of web applications is the ability for a user to log in. This requires using the Devise gem to create authentication and authorization for a Rails application.
+- **Add RSpec**
+```
+$ bundle add rspec-rails
+$ rails generate rspec:install
+```
+- **Add Devise**
+```
+$ bundle add devise
+$ rails generate devise:install
+$ rails generate devise User
+$ rails db:migrate
+```
+- **Add mailer settings**
+Here need to set up the default URL options for the Devise mailer in each environment. 
+
+*config/environments/development.rb* , add the following code at the end of the previous code inside the file:
+```
+config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+```
+
+Devise is a Rails gem that gives developers a collection of methods that create authorization and authentication. Using Devise to create a special model called User that gets Devise code injected into each new model instance. Just by running the setup commands to get Devise *sign in* and *sign up* forms as well as a lot of additional functionality.
+
+Navigate to `http://localhost:3000/users/sign_in` and see a log in page.
+
+Navigate to `http://localhost:3000/users/sign_up` and see a sign up page.
+
+
+- Branch: adding-devise
+
+
+
 #### Challenge 4 - Main UI
 - Implement your main UI pages in your single page application
 - Use data mocks to work with real data, but without the complexity of API integration
@@ -270,34 +311,19 @@ export default App
 - Finish off your application by hooking up the Database via API endpoints
 - Is everything secure?
 
-## Implement
-#### Setup
-- Made a Rails app, and db
-```
-$ rails new apartment_app -d postgresql -T
-$ cd apartment_app
-$ rails db:create
-```
-- Added the remote from github, created default branch
-```
-$git remote add origin GitHubLink
-$git checkout -b main
-$git push origin main
-```
-#### Installs
-- Branch: adding-devise
-- Adding RSpec:
-```
-$ bundle add rspec-rails
-$ rails generate rspec:install
-```
-- Adding Devise:
-```
-$ bundle add devise
-$ rails generate devise:install
-$ rails generate devise User
-$ rails db:migrate
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Apartment Model
 ```
