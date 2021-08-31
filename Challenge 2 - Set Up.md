@@ -1,11 +1,11 @@
 ### Challenge 2 - Set Up
-#### Create new app
+#### 1.  Create new app
 ```
 $ rails new apartment_us -d postgresql -T
 $ cd apartment_us
 $ rails db:create
 ```
-#### Add the remote from github, created default branch
+#### 2. Add the remote from github, created default branch
 ```
 $git remote add origin GitHubLink
 $git checkout -b main
@@ -13,32 +13,33 @@ $git push origin main
 ```
 - 注意：如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
 - 切记：一定要注意建立main branch，后续pull request要与main进行compare。*
-- **Add React to the Rails application and adding Webpacker to compile JavaScript.**
+
+#### 3. Add React to the Rails application and adding Webpacker to compile JavaScript.
 ```
 $ bundle add react-rails
 $ rails webpacker:install
 $ rails webpacker:install:react
 $ rails generate react:install
 ```
-#### Troubleshooting Tips
-Now that we are working in a new stack, the way we find error messages is going to look a little bit different. We are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
-```
+**Troubleshooting Tips**
+
+Becuase now I am working in a new stack, the way I find error messages is going to look a little bit different. I am used to getting a browser display when something goes wrong. With this particular stack, I need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 - Stop the server and start it again.
 - Did all the setup commands run properly? The commands can be rerun if something isn't working.
 - Seeing a blank page? Look for errors in the terminal or inspect your page.
 - Errors? Always look at the first error in the list.
-```
 
-There are many ways to create a full-stack application.  Once we have a Rails application we can **add a React component** using a generate command.
+#### Create a full-stack application
+- There are many ways to create a full-stack application.  
+- Once I have a Rails application I can **add a React component** using a generate command.
 ```
 $ rails generate react:component App
 ```
+- The install commands created a directory in `app` called `javascript`. 
+- In `app/javascript` there will be another directory called `components` that will contain `App.js` React component with some basic code
 
-The install commands created a directory in `app` called `javascript`. In `app/javascript` there will be another directory called `components` that will contain our `App.js` React component with some basic code
-
-*app/javascript/components/App.js*
-
-Add an `h1` tag to the React component
+**app/javascript/components/App.js**
+- Add an `h1` tag to the React component
 ```javascript
   render () {
     return (
