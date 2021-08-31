@@ -1,4 +1,5 @@
-# Apartment App Challenge--ApartmentUs <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/%23A2F84B.JPG" width="200" />
+# <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/%23A2F84B.JPG" width="200" />ApartmentUs 
+## Apartment App Challenge
 
 ```
 This project uses Ruby on Rails to host React components in a monolithic application,
