@@ -54,6 +54,10 @@ As a developer, I have been commissioned to create an application where a user c
 #### Challenge 2 - Set Up
 - The setup includes **adding React to the Rails application and adding Webpacker to compile JavaScript.**
 ```
+$ git clone GitHubRepositoryLink
+```
+
+```
 $ rails new apartment_us -d postgresql -T
 $ cd apartment_us
 $ rails db:create
@@ -62,6 +66,7 @@ $ rails webpacker:install
 $ rails webpacker:install:react
 $ rails generate react:install
 ```
+记住：因为先git clone了repository，所以建立的git是在上一层目录里。每一次git add、commit、push都要到上一层目录里去操作。每一次git之前都git status check 一下。另外养成习惯，完成一项任务push一次，每一次操作之前确认所在目录。
 - **Troubleshooting Tips**
 Now that we are working in a new stack, the way we find error messages is going to look a little bit different. We are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 ```
