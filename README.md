@@ -316,14 +316,14 @@ $ rails db:migrate
 
 The Apartments will belong to a User and a User will have many apartments.
 
-**app/models/apartment.rb**
+*app/models/apartment.rb*
 ```ruby
 class Apartment < ApplicationRecord
   belongs_to :user
 end
 ```
 
-**app/models/user.rb**
+*app/models/user.rb*
 ```ruby
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
@@ -334,8 +334,31 @@ class User < ApplicationRecord
 end
 ```
 
-- Branch: adding-devise
+- **Devise Code**
 
+Devise gets added to a few different spots. 
+
+1. The User model, which we already looked at. 
+2. The controller. This code is predominantly /prɪˈdɑːmɪnəntli/adv. 主要地；显著地  behind the scenes. 
+3. The routes. We can see that we have a resource for apartments and Devise routes for users.
+
+*config/routes.rb*
+```ruby
+Rails.application.routes.draw do
+  resources :apartments
+  devise_for :users
+end
+```
+
+- **Git add/commit/push to new branch-setup**
+```
+$ git status
+$ git checkout -b authentication
+$ git add .
+$ git commit -m "complete authentication"
+$ git push origin authentication
+```
+- **Pull request and review or waiting for review, then merge and delete the branch"**
 <hr>
 
 #### Challenge 4 - Main UI
