@@ -15,11 +15,6 @@ Main color code: #A2F84B
 ```
 As a developer, I have been commissioned to create an application where a user can see apartments that are available for rent. As a user, I can see a list of apartments. I can click on an apartment listing and see more information about that apartment. As a user, I can create an account and log in to the application. If I am logged in, I can add an apartment to the list. As a logged in user, I can see a list of all the apartments as well as just the apartments I added. If my work is acceptable to my client, I may also be asked to add the ability to remove an apartment from the list as well as edit the apartment information.
 
-## Troubleshooting Tips
-- Did you create your database?
-- Did you migrate?
-- Errors? Always look at the first error in the list.
-
 ## User Stories
 **Story:** As an un-registered guest on the website, I can go to a web page and see a list of available apartments. Apartments have: a street designation, a city, state, a manager's name, manager's contact email, monthly rental price, bedrooms, bathrooms, and whether they allow pets
 
@@ -74,7 +69,6 @@ $ rails webpacker:install
 $ rails webpacker:install:react
 $ rails generate react:install
 ```
-
 - **Troubleshooting Tips**
 Now that we are working in a new stack, the way we find error messages is going to look a little bit different. We are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 ```
@@ -84,7 +78,6 @@ Now that we are working in a new stack, the way we find error messages is going 
 - Errors? Always look at the first error in the list.
 ```
 <hr>
-
 There are many ways to create a full-stack application.  Once we have a Rails application we can **add a React component** using a generate command.
 ```
 $ `rails generate react:component App`
