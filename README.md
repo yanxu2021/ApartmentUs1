@@ -52,7 +52,7 @@ As a developer, I have been commissioned to create an application where a user c
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user?
 #### Challenge 2 - Set Up
-- Create new app
+- **Create new app**
 
 ```
 $ rails new apartment_us -d postgresql -T
@@ -67,7 +67,7 @@ $git push origin main
 ```
 注意，如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
 切记一定要注意建立main branch，后续pull request要与main进行compare。
-- **adding React to the Rails application and adding Webpacker to compile JavaScript.**
+- **Add React to the Rails application and adding Webpacker to compile JavaScript.**
 ```
 $ bundle add react-rails
 $ rails webpacker:install
@@ -105,7 +105,7 @@ Add an `h1` tag to the React component
   }
 ```
 
-- **generate a controller** so that we can route the React component can be rendered in a Rails view. This is the only Rails view we will make. Everything else will come from the React components.
+- **Generate a controller** so that we can route the React component can be rendered in a Rails view. This is the only Rails view we will make. Everything else will come from the React components.
 ```
 $ `rails g controller Home`
 ```
@@ -123,7 +123,7 @@ Rails.application.routes.draw do
   root 'home#index'
 end
 ```
-- **Adding Reactstrap to the application** allows for the use of a library of pre-built components. Reactstrap works in conjunction with Bootstap's core CSS. To add these libraries requires a little bit of setup to make the React styles compatible with Rails. There are many ways to add bootstrap to a Rails app, all of which will work equally well. 
+- **Add Reactstrap to the application** allows for the use of a library of pre-built components. Reactstrap works in conjunction with Bootstap's core CSS. To add these libraries requires a little bit of setup to make the React styles compatible with Rails. There are many ways to add bootstrap to a Rails app, all of which will work equally well. 
 
 Here is going to modify the Rails stylesheet to be a stylesheet with an `.scss` extension. This will allow us to write regular `css` code as well as import necessary dependencies. *scss* stands for Syntactially Awesome Styles Sheet and is a superset of css. It contains all of the functionality available in css with the addition of features such as imports and mixins.
 ```
