@@ -1,4 +1,6 @@
 # Apartment App Challenge--ApartmentUs
+![logo](https://github.com/yanxu2021/ApartmentUs/blob/main/img/%23A2F84B.JPG)
+Main color code: #A2F84B
 ```
 This project uses Ruby on Rails to host React components in a monolithic application,
 and Devise, a Ruby gem to create user login.
