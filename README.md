@@ -78,6 +78,7 @@ Now that we are working in a new stack, the way we find error messages is going 
 - Errors? Always look at the first error in the list.
 ```
 <hr>
+
 There are many ways to create a full-stack application.  Once we have a Rails application we can **add a React component** using a generate command.
 ```
 $ `rails generate react:component App`
