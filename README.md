@@ -1,6 +1,7 @@
 # Apartment App Challenge--ApartmentUs
 ```
-This project uses Ruby on Rails to host React components in a monolithic application,and Devise, a Ruby gem to create user login.
+This project uses Ruby on Rails to host React components in a monolithic application,
+and Devise, a Ruby gem to create user login.
 ```
 
 ```
