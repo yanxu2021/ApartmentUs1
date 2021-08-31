@@ -12,7 +12,7 @@
 
 ### How Authentication Works
 
-![auth workflow](https://github.com/yanxu2021/YAN-NOTE/blob/main/React%20in%20Rails/img/React-Authentication.jpg)
+![auth workflow](https://github.com/yanxu2021/ApartmentUs/blob/main/img/React-Authentication.jpg)
 
 The backend app has the primary responsibility for maintaining security in an application.  It is the only place where we as developers can be certain that we have absolute control over our data.  The backend uses secrets and hashing algorithms for its secure data that it sends out to browsers and other clients.  The server then demands that the client sends a secure token that only the server could have generated with every request that requires authentication.
 
