@@ -81,7 +81,7 @@ Now that we are working in a new stack, the way we find error messages is going 
 
 There are many ways to create a full-stack application.  Once we have a Rails application we can **add a React component** using a generate command.
 ```
-$ `rails generate react:component App`
+$ rails generate react:component App
 ```
 
 The install commands created a directory in `app` called `javascript`. In `app/javascript` there will be another directory called `components` that will contain our `App.js` React component with some basic code
