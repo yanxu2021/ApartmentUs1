@@ -104,6 +104,7 @@ Add an `h1` tag to the React component
 $ `rails g controller Home`
 ```
 - **Add a file in app/views/home called index.html.erb** By calling the React Component in `erb` tags the component will be rendered in the browser through the Rails view
+- 
 *app/views/home/index.html.erb*
 ```javascript
  <%= react_component 'App' %>
@@ -111,6 +112,7 @@ $ `rails g controller Home`
 Now we need to make sure we route to the appropriate file for our views.
 
 - **Create a route** so the React component will be rendered in a Rails view.
+
 *config/routes.rb*
 ```ruby
 Rails.application.routes.draw do
@@ -149,9 +151,10 @@ Due to Rails convention, the React file structure lives in the *app/javascript/c
 
 - **Add Pages**
 For this application, we are going to have three pages:
-`Home.js`
-`AboutUs.js`
-`AddApartment.js`
+
+1. `Home.js`
+2. `AboutUs.js`
+3. `AddApartment.js`
 
 - **Add an `<h3>` to each describing their intent**
 *app/javascript/components/pages/Home.js*
