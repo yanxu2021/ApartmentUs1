@@ -299,6 +299,13 @@ Navigate to `http://localhost:3000/users/sign_in` and see a log in page.
 
 Navigate to `http://localhost:3000/users/sign_up` and see a sign up page.
 
+- **Apartment Resource**
+The Devise User model is going to have an association with the Apartment model. In this situation, the User will have many apartments and the Apartments will belong to a User.
+```
+$ rails g resource Apartment street:string city:string state:string manager:string email:string 
+price:string bedrooms:integer bathrooms:integer pets:string user_id:integer
+$ rails db:migrate
+```
 
 - Branch: adding-devise
 
