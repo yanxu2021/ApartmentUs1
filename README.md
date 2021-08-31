@@ -54,8 +54,8 @@ As a developer, I have been commissioned to create an application where a user c
 #### Challenge 2 - Set Up
 - The setup includes **adding React to the Rails application and adding Webpacker to compile JavaScript.**
 ```
-$ rails new hello_world -d postgresql -T
-$ cd hello_world
+$ rails new apartment_us -d postgresql -T
+$ cd apartment_us
 $ rails db:create
 $ bundle add react-rails
 $ rails webpacker:install
