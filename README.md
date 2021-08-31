@@ -34,7 +34,7 @@ As a developer, I have been commissioned to create an application where a user c
 
 ## Process
 
-#### Challenge 1 - Planning
+### Challenge 1 - Planning
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
 - What associations do your tables have?
@@ -49,7 +49,7 @@ As a developer, I have been commissioned to create an application where a user c
 - Is this flow easy and intuitive for the user?
 <hr>
 
-#### Challenge 2 - Set Up
+### Challenge 2 - Set Up
 - **Create new app**
 
 ```
@@ -274,7 +274,7 @@ $ git push origin setup
 - **Pull request and review or waiting for review, then merge and delete the branch"**
 <hr>
 
-#### Challenge 3 - Authentication
+### Challenge 3 - Authentication
 A key component of web applications is the ability for a user to log in. This requires using the Devise gem to create authentication and authorization for a Rails application.
 - **Add RSpec**
 ```
@@ -361,12 +361,12 @@ $ git push origin authentication
 - **Pull request and review or waiting for review, then merge and delete the branch"**
 <hr>
 
-#### Challenge 4 - Main UI
+### Challenge 4 - Main UI
 - Implement your main UI pages in your single page application
 - Use data mocks to work with real data, but without the complexity of API integration
 <hr>
 
-#### Challenge 5 - API
+### Challenge 5 - API
 - Finish off your application by hooking up the Database via API endpoints
 - Is everything secure?
 <hr>
