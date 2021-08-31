@@ -271,7 +271,7 @@ $ git add .
 $ git commit -m "complete setup"
 $ git push origin setup
 ```
-- **Pull request and review or waiting for review, then merge and delete the branch"
+- **Pull request and review or waiting for review, then merge and delete the branch"**
 <hr>
 
 #### Challenge 3 - Authentication
