@@ -33,8 +33,6 @@ As a developer, I have been commissioned to create an application where a user c
 **Story:**: As a logged in user, I can edit the information for any apartment I have created, but I cannot edit the information for apartments that belong to someone else
 
 ## Process
-
-## Process
 #### Challenge 1 - Planning
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
