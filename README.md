@@ -60,8 +60,8 @@ $git remote add origin GitHubLink
 $git checkout -b main
 $git push origin main
 ```
-注意，如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
-切记一定要注意建立main branch，后续pull request要与main进行compare。
+*注意：如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
+切记：一定要注意建立main branch，后续pull request要与main进行compare。*
 - **Add React to the Rails application and adding Webpacker to compile JavaScript.**
 ```
 $ bundle add react-rails
