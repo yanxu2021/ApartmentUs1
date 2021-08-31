@@ -127,13 +127,13 @@ $ yarn add reactstrap
 
 At this point, there is only one React component in the application. Just like in a regular React App, this project will have many, many components. To keep the files organized, it is a good practice to create three directories in your React application: assets, components, and pages.
 
-**assets**
+1. **assets**
 The assets directory is used to store image files used in your application.
 
-**components**
+2. **components**
 The components directory is for helper components such as headers, footers, and buttons.
 
-**pages**
+3. **pages**
 The pages directory is for full views. The full view can consist of items from the assets and components directory as well a code unique to a page.
 
 Due to Rails convention, the React file structure lives in the *app/javascript/components* directory. 
