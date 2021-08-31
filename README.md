@@ -52,21 +52,22 @@ As a developer, I have been commissioned to create an application where a user c
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user?
 #### Challenge 2 - Set Up
-- The setup includes **adding React to the Rails application and adding Webpacker to compile JavaScript.**
+- Create new app
 
 ```
 $ rails new apartment_us -d postgresql -T
 $ cd apartment_us
 $ rails db:create
 ```
-
-- **Added the remote from github, created default branch**
+- **Add the remote from github, created default branch**
 ```
 $git remote add origin GitHubLink
 $git checkout -b main
 $git push origin main
 ```
-
+注意，如果remote add的repository不是空的，一定要记得fetch and pull，让本地和远程同步了，才能把修改的内容push。
+切记一定要注意建立main branch，后续pull request要与main进行compare。
+- **adding React to the Rails application and adding Webpacker to compile JavaScript.**
 ```
 $ bundle add react-rails
 $ rails webpacker:install
