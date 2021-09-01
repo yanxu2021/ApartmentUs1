@@ -29,18 +29,8 @@ As a developer, I have been commissioned to create an application where a user c
 ## Process
 
 [ Challenge 1 - Planning ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%201%20-%20Planning.md)
-- Draw out a proposed database schema
-- What tables do you anticipate you will need?
-- What associations do your tables have?
-- Explore some of the free Bootstrap themes available, which one do you want to use?
-- Wireframe the main pages in the application.
-- What forms will you need?
-- What fields are on those forms?
-- Do your forms match your database schema?
-- What are the user flows?
-- Protected vs. unprotected pages?
-- What is the most important user flow of the application?
-- Is this flow easy and intuitive for the user? 
+
+Q&A, user stories, data schema, wireframe, 
 
 [ Challenge 2 - Set Up ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
