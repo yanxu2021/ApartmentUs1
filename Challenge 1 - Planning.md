@@ -115,8 +115,11 @@ end
 
 
 ## :thought_balloon: What tables do you anticipate you will need?
+**user table** and **apartment table**
 ## :thought_balloon: What associations do your tables have?
+User can have many apartments and apartment belong to user's.
 ## :thought_balloon: Explore some of the free Bootstrap themes available, which one do you want to use?
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 ## :thought_balloon: Wireframe the main pages in the application.
  1. Home.js
  2. AboutUs.js
