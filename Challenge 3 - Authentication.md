@@ -73,8 +73,8 @@ Rails.application.routes.draw do
   devise_for :users
 end
 ```
-.![user sign up]()
-.![user log in]()
+.![user sign up](https://github.com/yanxu2021/ApartmentUs/blob/main/img/2.png)
+.![user log in](https://github.com/yanxu2021/ApartmentUs/blob/main/img/3.png)
 
 Git add/commit/push to new branch-setup
 ```
