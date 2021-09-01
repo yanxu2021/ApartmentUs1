@@ -40,7 +40,7 @@ As a developer, I have been commissioned to create an application where a user c
 - Protected vs. unprotected pages?
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user? 
-- [ Challenge 1 - Planning ](./Challenge 1 - Planning.md)
+- [ Challenge 1 - Planning ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%201%20-%20Planning.md)
 
 #### Challenge 2 - Set Up
 [ Challenge 2 - Set Up ](./tools_and_resources/assessments.md)
