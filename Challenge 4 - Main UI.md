@@ -128,6 +128,7 @@ export default Header
 **/app/assets/stylesheets/application.scss** 
 ```
 @import 'bootstrap'
+
 /* ---ALL ELEMENTS--- */
 * {
   margin: 0;
@@ -175,6 +176,7 @@ header {
   text-decoration: underline;
 }
 ```
+The * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers.
 
 To use header, edit **app/javascript/components/App.js**
 ```
