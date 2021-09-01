@@ -86,7 +86,7 @@ That is followed with some conditional rendering to display the appropriate link
 
 This is good foundational code, **but** ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
 
-Create app logo-logo.jpg, **../assets/logo.jpg**
+To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS as well, className="logo" ,className="nav-bar" and className="nav-link" used in header.
 
 **app/javascript/components//components/Header.js**
 ```
@@ -125,7 +125,7 @@ class Header extends Component {
 }
 export default Header
 ```
-Set up CSS, className="logo" ,className="nav-bar" and className="nav-link"
+
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
