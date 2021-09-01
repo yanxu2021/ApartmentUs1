@@ -133,7 +133,7 @@ export default Header
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #D2D2CF;
+  background-color: #A2F84B;
   position: fixed;
   width: 100%;
   top: 0
