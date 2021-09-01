@@ -146,8 +146,10 @@ Tools: Wireframe.cc
 ## :thought_balloon: What are the user flows? What is the most important user flow of the application? Is this flow easy and intuitive for the user?
 **User flow** is the path taken by a prototypical user on a website or app to complete a task. The user flow takes them from their entry point through a set of steps towards a successful outcome and final action, such as purchasing a product.
 
+**User flow design:** 
+
 <p align="center">
-  <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
+  <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/UserFlowDesign.png" width="600"/>
 </p>
 
 ## :thought_balloon: Protected vs. unprotected pages?
