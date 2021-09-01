@@ -23,7 +23,7 @@
 ```
 **Tool**: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
 
-![database schema](https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG)
+# <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG" width="500" />
 
 **db/seeds.rb**
 ```ruby
