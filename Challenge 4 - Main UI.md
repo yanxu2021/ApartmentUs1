@@ -128,6 +128,25 @@ export default Header
 **/app/assets/stylesheets/application.scss** 
 ```
 @import 'bootstrap'
+/* ---ALL ELEMENTS--- */
+* {
+  margin: 0;
+  padding: 0;
+}
+.page-body {
+  text-align: center;
+  margin-top: 170px;
+}
+button {
+  padding: 10px;
+  background-color: #8B0000;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #D2D2CF;
+  color: black;
+}
 
 /* ---HEADER--- */
 header {
