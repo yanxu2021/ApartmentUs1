@@ -23,10 +23,10 @@
 
 
 
-## What tables do you anticipate you will need?
-## What associations do your tables have?
-## Explore some of the free Bootstrap themes available, which one do you want to use?
-## Wireframe the main pages in the application.
+## :thought_balloon: What tables do you anticipate you will need?
+## :thought_balloon: What associations do your tables have?
+## :thought_balloon: Explore some of the free Bootstrap themes available, which one do you want to use?
+## :thought_balloon: Wireframe the main pages in the application.
  1. Home.js
  2. AboutUs.js
  3. New.js
@@ -34,12 +34,12 @@
  5. Show.js
  6. Edit.js
  7. NotFound.js
-## What forms will you need?
-## What fields are on those forms?
-## Do your forms match your database schema?
-## What are the user flows?
-## Protected vs. unprotected pages?
-## What is the most important user flow of the application?
-## Is this flow easy and intuitive for the user?
+## :thought_balloon: What forms will you need?
+## :thought_balloon: What fields are on those forms?
+## :thought_balloon: Do your forms match your database schema?
+## :thought_balloon: What are the user flows?
+## :thought_balloon: Protected vs. unprotected pages?
+## :thought_balloon: What is the most important user flow of the application?
+## :thought_balloon: Is this flow easy and intuitive for the user?
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
