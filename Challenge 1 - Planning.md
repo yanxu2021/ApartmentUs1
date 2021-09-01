@@ -23,7 +23,7 @@
 ```
 **Tool**: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
 
-<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG" width="500" />
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG" width="600" align="center" />
 
 **db/seeds.rb**
 ```ruby
@@ -128,7 +128,7 @@ A wireframe is a schematic or blueprint that is useful for helping you, your pro
 
 Tools: Wireframe.cc
 
-<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="500" />
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600" align="center" />
 
  1. Home.js
  2. AboutUs.js
