@@ -1,5 +1,5 @@
 # Challenge 2 - Set Up
-## 1.  Create new app and set up the Git
+## 1.  Create new APP and set up the Git
 - Create new app 
 ```
 $ rails new apartment_us -d postgresql -T
@@ -30,7 +30,7 @@ Becuase now I am working in a new stack, the way I find error messages is going 
 - Seeing a blank page? Look for errors in the terminal or inspect your page.
 - Errors? Always look at the first error in the list.
 
-## Create a full-stack application
+## 2. Create a full-stack application
 - There are many ways to create a full-stack application.  
 - Once I have a Rails application I can **add a React component** using a generate command.
 ```
