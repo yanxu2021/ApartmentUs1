@@ -1,23 +1,23 @@
 # Challenge 1 - Planning
 - Draw out a proposed database schema
 
-Tool: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
+**Tool**: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
 
-Story: As an un-registered guest on the website, I can go to a web page and see a list of available apartments. Apartments have: a street designation, a city, state, a manager's name, manager's contact email, monthly rental price, bedrooms, bathrooms, and whether they allow pets
+ 1. Story: As an un-registered guest on the website, I can go to a web page and see a list of available apartments. Apartments have: a street designation, a city, state, a manager's name, manager's contact email, monthly rental price, bedrooms, bathrooms, and whether they allow pets
 
-Story: As an un-registered guest on the website, I can click on an apartment to view its details
+ 2. Story: As an un-registered guest on the website, I can click on an apartment to view its details
 
-Story: As an un-registered guest on the website, I can see a header element at the top of each page containing navigation to the other pages
+ 3. Story: As an un-registered guest on the website, I can see a header element at the top of each page containing navigation to the other pages
 
-Story: As a un-registered guest, I can go to registration page with a form and register as a new user
+ 4. Story: As a un-registered guest, I can go to registration page with a form and register as a new user
 
-Story: As a registered user who has not logged in, I can go to a login page
+ 5. Story: As a registered user who has not logged in, I can go to a login page
 
-Story: As a logged in user, I should be able to log out
+ 6. Story: As a logged in user, I should be able to log out
 
-Story: As a logged in user, I can go to a new apartment page with a form and create a new apartment
+ 7. Story: As a logged in user, I can go to a new apartment page with a form and create a new apartment
 
-Story:: As a logged in user, I can edit the information for any apartment I have created, but I cannot edit the information for apartments that belong to someone else
+ 8. Story:: As a logged in user, I can edit the information for any apartment I have created, but I cannot edit the information for apartments that belong to someone else
 
 
 
