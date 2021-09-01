@@ -130,17 +130,20 @@ A wireframe is a schematic or blueprint that is useful for helping you, your pro
 
 Tools: Wireframe.cc
 
+ 1. Home.js
+
 <p align="center">
   <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
 </p>
 
- 1. Home.js
  2. AboutUs.js
  3. New.js
  4. Index.js
  5. Show.js
  6. Edit.js
  7. NotFound.js
+ 8. Header.js
+ 9. Footer.js
 ## :thought_balloon: What forms will you need?
 ## :thought_balloon: What fields are on those forms?
 ## :thought_balloon: Do your forms match your database schema?
