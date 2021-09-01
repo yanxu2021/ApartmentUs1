@@ -5,7 +5,7 @@ $ rails new apartment_us -d postgresql -T
 $ cd apartment_us
 $ rails db:create
 ```
-#### 2. Add the remote from github, created default branch
+#### 2. Add the remote from GitHub, created default branch
 ```
 $git remote add origin GitHubLink
 $git checkout -b main
