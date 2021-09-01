@@ -1,5 +1,5 @@
 # Challenge 1 - Planning
-## |Draw out a proposed database schema|
+## {Draw out a proposed database schema}
 
 **Tool**: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
 
