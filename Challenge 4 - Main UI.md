@@ -56,10 +56,7 @@ That is followed with some conditional rendering to display the appropriate link
 
 **app/javascript/components/App.js**
 ```javascript
-import React from "react"
-import PropTypes from "prop-types"
-
-class App extends React.Component {
+...
   render() {
     const {
       logged_in,
@@ -84,8 +81,7 @@ class App extends React.Component {
     )
   }
 }
-
-export default App
+...
 ```
 
 This is good foundational code, **but** ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
@@ -108,7 +104,7 @@ class Header extends Component {
     return (
       <header>
         <NavLink to="/">
-          <img src={logo} alt="apartment app logo" className="logo"/>
+          <img src={logo} alt="logo" className="logo"/>
         </NavLink>
         <div className="nav-bar">
           <ul>
@@ -129,7 +125,7 @@ class Header extends Component {
 }
 export default Header
 ```
-
+Set up CSS, className="logo" ,className="nav-bar" and className="nav-link"
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
