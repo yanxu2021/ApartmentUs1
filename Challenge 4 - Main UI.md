@@ -159,38 +159,56 @@ header {
 
 To use header, edit **app/javascript/components/App.js**
 ```
+import React from "react"
+import PropTypes from "prop-types"
+import {
+  BrowserRouter as  Router,
+  NavLink,
+  Route,
+  Switch
+} from "react-router-dom"
+import { Nav, NavItem } from "reactstrap"
+import Home from "./pages/Home"
+import AboutUs from "./pages/AboutUs"
+import AddApartment from "./pages/AddApartment"
 import Header from './components/Header'
-...
-render() {
-    const {
+class App extends React.Component{
+  render(){
+    const{
       logged_in,
       current_user,
       new_user_route,
       sign_in_route,
       sign_out_route
-    } = this.props
-    return (
+    } =  this.props
+    return(
       <Router>
         <Header
           logged_in={logged_in}
           sign_in_route={sign_in_route}
           sign_out_route={sign_out_route}
         />
+        <Nav>
+          <NavItem>
+            <NavLink to="/">Home</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/about">About Us</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/add">Add Apartment</NavLink>
+          </NavItem>
+        </Nav>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/apartmentIndex" render={(props) => {
-            return <ApartmentIndex apartments={this.state.apartments} />
-          }}/>
-          <Route path="/apartmentShow/:id" render={ (props) => {
-            let id = +props.match.params.id
-            let apartment = this.state.apartments.find(a => a.id === id)
-            return <ApartmentShow apartment={apartment} />
-          }}/>
+          <Route exact path="/" component={ Home } />
+          <Route path="/about" component={ AboutUs } />
+          <Route path="/add" component={ AddApartment } />
         </Switch>
       </Router>
     )
   }
-...
+}
+export default App
 ```
 
 
