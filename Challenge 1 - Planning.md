@@ -146,5 +146,6 @@ Tools: Wireframe.cc
 ## :thought_balloon: What are the user flows? What is the most important user flow of the application? Is this flow easy and intuitive for the user?
 ## :thought_balloon: Protected vs. unprotected pages?
 
+[ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
