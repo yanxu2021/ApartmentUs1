@@ -144,12 +144,9 @@ Tools: Wireframe.cc
  7. NotFound.js
  8. Header.js
  9. Footer.js
-## :thought_balloon: What forms will you need?
-## :thought_balloon: What fields are on those forms?
-## :thought_balloon: Do your forms match your database schema?
-## :thought_balloon: What are the user flows?
+## :thought_balloon: What forms will you need? What fields are on those forms? Do your forms match your database schema?
+## :thought_balloon: What are the user flows? What is the most important user flow of the application? Is this flow easy and intuitive for the user?
 ## :thought_balloon: Protected vs. unprotected pages?
-## :thought_balloon: What is the most important user flow of the application?
-## :thought_balloon: Is this flow easy and intuitive for the user?
+
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
