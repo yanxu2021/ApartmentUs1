@@ -44,8 +44,6 @@ As a developer, I have been commissioned to create an application where a user c
 
 [ Challenge 2 - Set Up ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
-GitHub branch：setup
-
 **Troubleshooting Tips** Becuase now we are working in a new stack, the way we find error messages is going to look a little bit different. we are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 - Stop the server and start it again.
 - Did all the setup commands run properly? The commands can be rerun if something isn't working.
@@ -54,21 +52,15 @@ GitHub branch：setup
 
 [ Challenge 3 - Authentication ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%203%20-%20Authentication.md)
 
-GitHub branch: auth
-
 Implement your authentication code, with stubbed out main pages
 
 [ Challenge 4 - Main UI ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%204%20-%20Main%20UI.md)
-
-GitHub branch: ui
 
 Implement your main UI pages in your single page application
 
 Use data mocks to work with real data, but without the complexity of API integration
 
 [ Challenge 5 - API ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
-
-GitHub branch： api
 
 Finish off your application by hooking up the Database via API endpoints
 
