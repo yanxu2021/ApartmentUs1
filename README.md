@@ -11,6 +11,8 @@ As a developer, I have been commissioned to create an application where a user c
 - As a developer, I can create a Rails application with Devise functionality
 - As a developer, I can create an Apartment resource with the appropriate attributes
 - As a developer, I can create an association between User and Apartments
+- As a developer, I can add React components to my apartment app
+- As a developer, I ensure my app distinguishes the difference between JSON and HTML payloads in my routes
 
 ## User Stories
 **Story:** As an un-registered guest on the website, I can go to a web page and see a list of available apartments. Apartments have: a street designation, a city, state, a manager's name, manager's contact email, monthly rental price, bedrooms, bathrooms, and whether they allow pets
@@ -21,7 +23,7 @@ As a developer, I have been commissioned to create an application where a user c
 
 **Story:** As a un-registered guest, I can go to registration page with a form and register as a new user
 
-**Story:** As a registered user who has not logged in, I can go to a login page
+**Story:** As a registered user who has not logged in, I can go to a login page (navigate to a log in page)
 
 **Story:** As a logged in user, I should be able to log out
 
