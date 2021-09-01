@@ -62,3 +62,5 @@ Use data mocks to work with real data, but without the complexity of API integra
 Finish off your application by hooking up the Database via API endpoints
 
 Is everything secure?
+
+[ Challenge 6 - Testing ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
