@@ -1,4 +1,4 @@
-### Challenge 1 - Planning
+# Challenge 1 - Planning
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
 - What associations do your tables have?
@@ -11,4 +11,3 @@
 - Protected vs. unprotected pages?
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user?
-<hr>
