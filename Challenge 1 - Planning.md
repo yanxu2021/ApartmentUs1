@@ -4,6 +4,13 @@
 - What associations do your tables have?
 - Explore some of the free Bootstrap themes available, which one do you want to use?
 - Wireframe the main pages in the application.
+1. Home.js
+2. AboutUs.js
+3. New.js
+4. Index.js
+5. Show.js
+6. Edit.js
+7. NotFound.js
 - What forms will you need?
 - What fields are on those forms?
 - Do your forms match your database schema?
