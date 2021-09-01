@@ -128,7 +128,7 @@ A wireframe is a schematic or blueprint that is useful for helping you, your pro
 
 Tools: Wireframe.cc
 
-<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600" align="center" />
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600" align="center"/>
 
  1. Home.js
  2. AboutUs.js
