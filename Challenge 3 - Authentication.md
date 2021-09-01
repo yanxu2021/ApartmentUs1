@@ -1,18 +1,18 @@
 # Challenge 3 - Authentication
 A key component of web applications is the ability for a user to log in. This requires using the Devise gem to create authentication and authorization for a Rails application.
-- Add RSpec
+## 1. Add RSpec
 ```
 $ bundle add rspec-rails
 $ rails generate rspec:install
 ```
-- Add Devise
+## 2. Add Devise
 ```
 $ bundle add devise
 $ rails generate devise:install
 $ rails generate devise User
 $ rails db:migrate
 ```
-- Add mailer settings
+## 3. Add mailer settings
 
 Here need to set up the default URL options for the Devise mailer in each environment. 
 
@@ -27,7 +27,7 @@ Navigate to `http://localhost:3000/users/sign_in` and see a log in page.
 
 Navigate to `http://localhost:3000/users/sign_up` and see a sign up page.
 
-- Apartment Resource
+## 4. Apartment Resource
 
 The Devise User model is going to have an association with the Apartment model. In this situation, the User will have many apartments and the Apartments will belong to a User.
 ```
@@ -36,7 +36,7 @@ price:string bedrooms:integer bathrooms:integer pets:string user_id:integer
 $ rails db:migrate
 ```
 
-- User and Apartment Associations
+## 5. User and Apartment Associations
 
 The Apartments will belong to a User and a User will have many apartments.
 
@@ -58,7 +58,7 @@ class User < ApplicationRecord
 end
 ```
 
-- Devise Code
+## 6. Devise Code
 
 Devise gets added to a few different spots. 
 
@@ -73,8 +73,10 @@ Rails.application.routes.draw do
   devise_for :users
 end
 ```
+.![user sign up]()
+.![user log in]()
 
-- Git add/commit/push to new branch-setup
+Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b authentication
@@ -82,6 +84,6 @@ $ git add .
 $ git commit -m "complete authentication"
 $ git push origin authentication
 ```
-- Pull request and review or waiting for review, then merge and delete the branch
+Pull request and review or waiting for review, then merge and delete the branch
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
