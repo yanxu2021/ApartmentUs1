@@ -125,8 +125,10 @@ class Header extends Component {
 }
 export default Header
 ```
-**/app/assets/stylesheets/application.css** 
+**/app/assets/stylesheets/application.scss** 
 ```
+@import 'bootstrap'
+
 /* ---HEADER--- */
 header {
   display: flex;
