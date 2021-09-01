@@ -22,8 +22,10 @@
  but I cannot edit the information for apartments that belong to someone else.
 ```
 **Tool**: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
+
 ![database schema](https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG)
 
+**db/seeds.rb**
 ```ruby
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
