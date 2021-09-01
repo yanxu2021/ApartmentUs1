@@ -157,6 +157,43 @@ header {
 }
 ```
 
+To use header, edit **app/javascript/components/App.js**
+```
+import Header from './components/Header'
+...
+render() {
+    const {
+      logged_in,
+      current_user,
+      new_user_route,
+      sign_in_route,
+      sign_out_route
+    } = this.props
+    return (
+      <Router>
+        <Header
+          logged_in={logged_in}
+          sign_in_route={sign_in_route}
+          sign_out_route={sign_out_route}
+        />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/apartmentIndex" render={(props) => {
+            return <ApartmentIndex apartments={this.state.apartments} />
+          }}/>
+          <Route path="/apartmentShow/:id" render={ (props) => {
+            let id = +props.match.params.id
+            let apartment = this.state.apartments.find(a => a.id === id)
+            return <ApartmentShow apartment={apartment} />
+          }}/>
+        </Switch>
+      </Router>
+    )
+  }
+...
+```
+
+
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
 
