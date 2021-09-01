@@ -114,19 +114,17 @@ end
 ```
 
 ## :thought_balloon: What tables do you anticipate you will need?
-**user table** and **apartment table**
+1. **user table** 
+2. **apartment table**
 
 ## :thought_balloon: What associations do your tables have?
 User can have many apartments and apartment belong to user's.
 
 ## :thought_balloon: Explore some of the free Bootstrap themes available, which one do you want to use?
-Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+**Bootstrap** is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
 ## :thought_balloon: Wireframe the main pages in the application.
 A wireframe is a schematic or blueprint that is useful for helping you, your programmers and designers think and communicate about the structure of the software or website you're building.
-
-Tool: Figma Tutorial - A Free UI Design/Prototyping Tool. It's awesome.
-https://youtu.be/3q3FV65ZrUs
 
  1. Home.js
  2. AboutUs.js
