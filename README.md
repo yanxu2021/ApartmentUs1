@@ -28,6 +28,7 @@ As a developer, I have been commissioned to create an application where a user c
 
 ## Process
 #### Challenge 1 - Planning
+[ Challenge 1 - Planning ](./tools_and_resources/assessments.md)
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
 - What associations do your tables have?
@@ -42,6 +43,7 @@ As a developer, I have been commissioned to create an application where a user c
 - Is this flow easy and intuitive for the user? 
 
 #### Challenge 2 - Set Up
+[ Challenge 2 - Set Up ](./tools_and_resources/assessments.md)
 **Troubleshooting Tips** Becuase now we are working in a new stack, the way we find error messages is going to look a little bit different. we are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 - Stop the server and start it again.
 - Did all the setup commands run properly? The commands can be rerun if something isn't working.
@@ -49,12 +51,15 @@ As a developer, I have been commissioned to create an application where a user c
 - Errors? Always look at the first error in the list.
 
 #### Challenge 3 - Authentication
+[ Challenge 3 - Authentication ](./tools_and_resources/assessments.md)
 - Implement your authentication code, with stubbed out main pages
 
 #### Challenge 4 - Main UI
+[ Challenge 4 - Main UI ](./tools_and_resources/assessments.md)
 - Implement your main UI pages in your single page application
 - Use data mocks to work with real data, but without the complexity of API integration
 
 #### Challenge 5 - API
+[ Challenge 5 - API ](./tools_and_resources/assessments.md)
 - Finish off your application by hooking up the Database via API endpoints
 - Is everything secure?
