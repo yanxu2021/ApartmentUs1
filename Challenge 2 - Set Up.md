@@ -231,4 +231,6 @@ $ git push origin setup
 ```
 - Pull request and review or waiting for review, then merge and delete the branch"
 
+[ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%203%20-%20Authentication.md)
+
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
