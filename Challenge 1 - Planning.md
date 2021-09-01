@@ -124,7 +124,7 @@ User **has_many** apartments and apartment **belong_to** user.
 **Bootstrap** is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
 ## :thought_balloon: Wireframe the main pages in the application.
-A wireframe is a schematic or blueprint that is useful for helping you, your programmers and designers think and communicate about the structure of the software or website you're building.
+A **wireframe** is a schematic or blueprint that is useful for helping you, your programmers and designers think and communicate about the structure of the software or website you're building.
 
 Tools: Wireframe.cc
 
