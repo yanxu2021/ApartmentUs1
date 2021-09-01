@@ -25,19 +25,6 @@ $ rails webpacker:install
 $ rails webpacker:install:react
 $ rails generate react:install
 ```
-
-**Troubleshooting Tips**
-
-Becuase now we are working in a new stack, the way we find error messages is going to look a little bit different. we are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
-
-Stop the server and start it again.
-
-Did all the setup commands run properly? The commands can be rerun if something isn't working.
-
-Seeing a blank page? Look for errors in the terminal or inspect your page.
-
-Errors? Always look at the first error in the list.
-
 ## 2. Create a full-stack application
 
 There are many ways to create a full-stack application. Once we have a Rails application we can **add a React component** using a generate command.
