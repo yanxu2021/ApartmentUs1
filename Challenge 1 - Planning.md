@@ -114,8 +114,8 @@ end
 ```
 
 ## :thought_balloon: What tables do you anticipate you will need?
-1. **user table** 
-2. **apartment table**
+1. user table 
+2. apartment table
 
 ## :thought_balloon: What associations do your tables have?
 User can have many apartments and apartment belong to user's.
