@@ -27,7 +27,8 @@ As a developer, I have been commissioned to create an application where a user c
 **Story:**: As a logged in user, I can edit the information for any apartment I have created, but I cannot edit the information for apartments that belong to someone else
 
 ## Process
-#### Challenge 1 - Planning
+
+[ Challenge 1 - Planning ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%201%20-%20Planning.md)
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
 - What associations do your tables have?
@@ -41,9 +42,7 @@ As a developer, I have been commissioned to create an application where a user c
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user? 
 
-[ Challenge 1 - Planning ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%201%20-%20Planning.md)
-
-#### Challenge 2 - Set Up
+[ Challenge 2 - Set Up ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
 **Troubleshooting Tips** Becuase now we are working in a new stack, the way we find error messages is going to look a little bit different. we are used to getting a browser display when something goes wrong. With this particular stack, we need to look for errors in the console and in the terminal. Any syntax errors or incorrect code anywhere in the React components will prevent `App.js` from compiling. So a mistake is likely to lead to a blank page.
 - Stop the server and start it again.
@@ -51,26 +50,18 @@ As a developer, I have been commissioned to create an application where a user c
 - Seeing a blank page? Look for errors in the terminal or inspect your page.
 - Errors? Always look at the first error in the list.
 
-[ Challenge 2 - Set Up ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
-
-#### Challenge 3 - Authentication
+[ Challenge 3 - Authentication ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%203%20-%20Authentication.md)
 
 Implement your authentication code, with stubbed out main pages
 
-[ Challenge 3 - Authentication ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%203%20-%20Authentication.md)
-
-#### Challenge 4 - Main UI
+[ Challenge 4 - Main UI ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%204%20-%20Main%20UI.md)
 
 Implement your main UI pages in your single page application
 
 Use data mocks to work with real data, but without the complexity of API integration
 
-[ Challenge 4 - Main UI ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%204%20-%20Main%20UI.md)
-
-#### Challenge 5 - API
+[ Challenge 5 - API ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
 
 Finish off your application by hooking up the Database via API endpoints
 
 Is everything secure?
-
-[ Challenge 5 - API ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
