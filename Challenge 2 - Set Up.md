@@ -170,7 +170,7 @@ import AddApartment from "./pages/AddApartment"
 </Router>
 ```
 
-## 3. Routing Constraints
+## 4. Routing Constraints
 
 Rails has a router, and now added React Router. These two routers could come into conflict. Reals路由会和React路由发生冲突。Here need to clearly separate the Rails routing responsibilities, and the React routing responsibilities. 
 
@@ -233,7 +233,7 @@ class App extends React.Component{
 export default App
 ```
 
-- Git add/commit/push to new branch-setup
+## 5. Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b setup
