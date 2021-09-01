@@ -28,7 +28,6 @@ As a developer, I have been commissioned to create an application where a user c
 
 ## Process
 #### Challenge 1 - Planning
-[ Challenge 1 - Planning ](./tools_and_resources/assessments.md)
 - Draw out a proposed database schema
 - What tables do you anticipate you will need?
 - What associations do your tables have?
@@ -41,6 +40,7 @@ As a developer, I have been commissioned to create an application where a user c
 - Protected vs. unprotected pages?
 - What is the most important user flow of the application?
 - Is this flow easy and intuitive for the user? 
+- [ Challenge 1 - Planning ](./Challenge 1 - Planning.md)
 
 #### Challenge 2 - Set Up
 [ Challenge 2 - Set Up ](./tools_and_resources/assessments.md)
