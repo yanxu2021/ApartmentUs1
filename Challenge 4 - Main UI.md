@@ -86,7 +86,7 @@ That is followed with some conditional rendering to display the appropriate link
 
 This is good foundational code, **but** ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
 
-To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS as well, **className="logo" ,className="nav-bar" and className="nav-link"** used in header.
+To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS **/app/assets/stylesheets/application.css** as well, **className="logo" ,className="nav-bar" and className="nav-link"** used in header.
 
 **app/javascript/components//components/Header.js**
 ```
@@ -124,6 +124,35 @@ class Header extends Component {
   }
 }
 export default Header
+```
+
+```
+/* ---HEADER--- */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #D2D2CF;
+  position: fixed;
+  width: 100%;
+  top: 0
+}
+.logo {
+  height: 150px;
+  margin-left: 20px;
+}
+.nav-bar {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.nav-link {
+  margin: 10px;
+  color: #8B0000;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
 ```
 
 
