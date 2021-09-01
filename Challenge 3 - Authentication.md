@@ -86,4 +86,6 @@ $ git push origin authentication
 ```
 Pull request and review or waiting for review, then merge and delete the branch
 
+[ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%204%20-%20Main%20UI.md)
+
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
