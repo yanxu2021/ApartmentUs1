@@ -148,9 +148,7 @@ Tools: Wireframe.cc
 
 **User flow design:** 
 
-<p align="center">
-  <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/UserFlowDesign.png" width="600"/>
-</p>
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/UserFlowDesign.png" width="800"/>
 
 ## :thought_balloon: Protected vs. unprotected pages?
 
