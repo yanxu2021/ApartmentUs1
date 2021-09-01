@@ -88,9 +88,9 @@ class App extends React.Component {
 export default App
 ```
 
-This is good foundational code, but ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
+This is good foundational code, **but** ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
 
-Create app logo-logo.jpg, ../assets/logo.jpg
+Create app logo-logo.jpg, **../assets/logo.jpg**
 
 **app/javascript/components//components/Header.js**
 ```
