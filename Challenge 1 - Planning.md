@@ -23,7 +23,7 @@
 ```
 **Tool**: Dbdiagram.io is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
 
-# <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG" width="500" />
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/database%20%20schema.JPG" width="500" />
 
 **db/seeds.rb**
 ```ruby
@@ -125,6 +125,10 @@ User **has_many** apartments and apartment **belong_to** user.
 
 ## :thought_balloon: Wireframe the main pages in the application.
 A wireframe is a schematic or blueprint that is useful for helping you, your programmers and designers think and communicate about the structure of the software or website you're building.
+
+Tools: Wireframe.cc
+
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="500" />
 
  1. Home.js
  2. AboutUs.js
