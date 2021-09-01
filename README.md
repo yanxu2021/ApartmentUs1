@@ -63,4 +63,4 @@ Finish off your application by hooking up the Database via API endpoints
 
 Is everything secure?
 
-[ Challenge 6 - Testing ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
+[ Challenge 6 - Testing ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%206%20-%20Testing.md)
