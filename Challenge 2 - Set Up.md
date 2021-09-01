@@ -48,7 +48,7 @@ The install commands created a directory in `app` called `javascript`. In `app/j
 ## 3. Generate a controller
 Generate a controller so that we can route the React component can be rendered in a Rails view. This is the only Rails view we will make. Everything else will come from the React components.
 ```
-$ `rails g controller Home`
+$ rails g controller Home
 ```
 - Add a file in app/views/home called index.html.erb By calling the React Component in `erb` tags the component will be rendered in the browser through the Rails view
 
