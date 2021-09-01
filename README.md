@@ -45,12 +45,15 @@ As a developer, I have been commissioned to create an application where a user c
 - What are the user flows?
 - Protected vs. unprotected pages?
 - What is the most important user flow of the application?
-- Is this flow easy and intuitive for the user?
-#### Challenge 2 - Authentication
+- Is this flow easy and intuitive for the user? 
+
+#### Challenge 2 - Set Up
+
+#### Challenge 3 - Authentication
 - Implement your authentication code, with stubbed out main pages
-#### Challenge 3 - Main UI
+#### Challenge 4 - Main UI
 - Implement your main UI pages in your single page application
 - Use data mocks to work with real data, but without the complexity of API integration
-#### Challenge 4 - API
+#### Challenge 5 - API
 - Finish off your application by hooking up the Database via API endpoints
 - Is everything secure?
