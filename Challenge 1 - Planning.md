@@ -231,6 +231,10 @@ export default New
 
 ## :thought_balloon: Protected vs. unprotected pages?
 
+**A protected page** is a page where normal users are prevented from editing and/or moving at all. Only a user with sysop permissions can edit or move a protected page. Likewise only sysop users can protect a page in the first place, or unprotect the page to lift the restriction.
+
+**A sysop (/ˈsɪsɒp/; an abbreviation of system operator) is an administrator of a multi-user computer system**, such as a bulletin board system (BBS) or an online service virtual community. The phrase may also be used to refer to administrators of other Internet-based network services.
+
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
