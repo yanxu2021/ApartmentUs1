@@ -235,6 +235,11 @@ export default New
 
 **A sysop (/ˈsɪsɒp/; an abbreviation of system operator) is an administrator of a multi-user computer system**, such as a bulletin board system (BBS) or an online service virtual community. The phrase may also be used to refer to administrators of other Internet-based network services.
 
+**Set Up Protected Routes in React Application**
+Require authentication for users to access your page to restrict user access to certain pages or you have your whole application behind a login.
+1. Installed react-router-dom for routing.
+2. Achieve protection by creating a custom component that will handle incoming requests. The purpose of the component will be very simple. If the user has been authenticated, render the passed component. Otherwise, redirect them to the login page.
+
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
