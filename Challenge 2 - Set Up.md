@@ -249,7 +249,8 @@ class App extends React.Component{
 }
 export default App
 ```
-.![setup](https://github.com/yanxu2021/ApartmentUs/blob/main/img/1.png)
+
+![setup](https://github.com/yanxu2021/ApartmentUs/blob/main/img/1.png)
 
 ## 6. Git add/commit/push to new branch-setup
 ```
