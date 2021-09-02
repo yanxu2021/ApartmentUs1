@@ -85,7 +85,7 @@ That is followed with some conditional rendering to display the appropriate link
 
 This is good foundational code, **but** ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
 
-To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS as well, **className="logo" ,className="nav-bar" and className="nav-link"** used in header.
+To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS as well, **className="logo" ,className="nav-bar" and className="nav-link"** used in header according to the layout of the Home.js wireframe.
 
 **app/javascript/components//components/Header.js**
 ```
@@ -97,8 +97,8 @@ class Header extends Component {
   render() {
     const {
       logged_in,
-      sign_in_route,
-      sign_out_route
+      new_user_route,
+      sign_in_route
     } = this.props
     return (
       <header>
@@ -106,16 +106,17 @@ class Header extends Component {
           <img src={logo} alt="logo" className="logo"/>
         </NavLink>
         <div className="nav-bar">
-          <ul>
-            <NavLink to="/apartmentIndex" className="nav-link">See All the Apartments</NavLink>
-          </ul>
-          <ul>
+           <ul>
             {logged_in &&
-              <a href={sign_out_route} className="nav-link">Sign Out</a>
+              <a href={new_user_route} className="nav-link">Sign Up/</a>
             }
             {!logged_in &&
               <a href={sign_in_route} className="nav-link">Sign In</a>
             }
+          <ul>
+            <NavLink to="/new" className="nav-link">Add Apartment</NavLink>
+          </ul>
+
           </ul>
         </div>
       </header>
@@ -133,10 +134,11 @@ export default Header
   margin: 0;
   padding: 0;
 }
-.page-body {
+
+body {
   text-align: center;
-  margin-top: 170px;
 }
+  
 button {
   padding: 10px;
   background-color: #8B0000;
@@ -159,7 +161,7 @@ header {
 }
 .logo {
   height: 150px;
-  margin-left: 20px;
+  align-items: center;
 }
 .nav-bar {
   display: flex;
