@@ -133,13 +133,15 @@ Tools: Wireframe.cc
 <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
 
  2. AboutUs.js
- 3. New.js
- 4. Index.js
- 5. Show.js
- 6. Edit.js
- 7. NotFound.js
- 8. Header.js
- 9. Footer.js
+ 3. NotFound.js
+ 
+ 4. New.js
+ 5. Index.js
+ 6. Show.js
+
+  
+ 7. Header.js
+ 8. Footer.js
 ## :thought_balloon: What forms will you need? What fields are on those forms? Do your forms match your database schema?
 1. sign up form-support by **Devise**, a Ruby gem to create user login.
 2. create form(3. update form)
