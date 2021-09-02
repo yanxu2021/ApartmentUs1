@@ -5,7 +5,8 @@ This project uses **Ruby on Rails** to host **React components** in a monolithic
 app_name: ApartmentUs
 slogan: Find apartment, Life community
 
-We create a community for all people own or looking for an apartment, not only a location but also a life style.
+We create a community for all people own or looking for an apartment, 
+not only a location but also a life style.
 
 **Community designed for Place, Purpose, and Profitability.**
 
