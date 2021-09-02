@@ -138,17 +138,6 @@ export default Header
 body {
   text-align: center;
 }
-  
-button {
-  padding: 10px;
-  background-color: #8B0000;
-  color: white;
-}
-button:hover {
-  cursor: pointer;
-  background-color: #D2D2CF;
-  color: black;
-}
 
 /* ---HEADER--- */
 header {
