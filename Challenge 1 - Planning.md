@@ -127,21 +127,20 @@ User **has_many** apartments and apartment **belong_to** user.
 A **wireframe** is a schematic or blueprint that is useful for helping you, your programmers and designers think and communicate about the structure of the software or website you're building.
 
 Tools: Wireframe.cc
-
+Pages: 
  1. Home.js
 
 <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
 
  2. AboutUs.js
  3. NotFound.js
- 
  4. New.js
  5. Index.js
  6. Show.js
 
-  
- 7. Header.js
- 8. Footer.js
+ Components:
+ 1. Header.js
+ 2. Footer.js
 ## :thought_balloon: What forms will you need? What fields are on those forms? Do your forms match your database schema?
 1. sign up form-support by **Devise**, a Ruby gem to create user login.
 2. create form(3. update form)
