@@ -229,7 +229,7 @@ export default New
 
 ![image](https://github.com/yanxu2021/ApartmentUs/blob/main/img/userflow.png)
 
-## :thought_balloon: Protected vs. unprotected pages?
+## :thought_balloon: Protected vs. Unprotected pages?
 
 **A protected page** is a page where normal users are prevented from editing and/or moving at all. 
 
