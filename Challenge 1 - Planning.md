@@ -141,6 +141,13 @@ Tools: Wireframe.cc
  8. Header.js
  9. Footer.js
 ## :thought_balloon: What forms will you need? What fields are on those forms? Do your forms match your database schema?
+1. sign up form
+2. create form
+3. update form
+
+```javaScript
+
+```
 ## :thought_balloon: What are the user flows? What is the most important user flow of the application? Is this flow easy and intuitive for the user?
 **User flow** is the path taken by a prototypical user on a website or app to complete a task. The user flow takes them from their entry point through a set of steps towards a successful outcome and final action, such as purchasing a product.
 
@@ -151,6 +158,24 @@ Tools: Wireframe.cc
 **ApartmentUs User Flow**
 
 ![image](https://github.com/yanxu2021/ApartmentUs/blob/main/img/userflow.png)
+
+route path='/'	→	As un-registered guest	→	route path='/index'	Able to see a list of available apartments.
+			→	route path='/show/:id'	Able to view an apartment with its details.
+			→	route path='/users/sign_up'	Able to register with a form. 
+			→	route path='/about'	Able to get more information.
+			→	route path='/notfound'	Able to get Infor when error occurs.
+					
+	→	As registered user	→	route path='/index'	Able to see a list of available apartments.
+			→	route path='/show/:id'	Able to view an apartment with its details. 
+			→	route path='/users/sign_in'	Able to log in with a form. 
+			→	route path='/users/sign_out'	Able to log out by clicking a button.
+			→	route path='/new'	Able to create a new apartment with a form.
+			→	route path='/show/:id'	Able to update any apartment created by this user  with a button to a form.
+			→	route path='/myapartments'	Able to read all apartments created by this user.
+			→	route path='/show/:id'	Able to delete any apartment created by this user with a button.
+			→	route path='/about'	Able to get more information.
+			→	route path='/notfound'	Able to get Infor when error occurs.
+![image](https://user-images.githubusercontent.com/77746251/131768413-a5a55641-243c-4806-865c-00c394efbf7b.png)
 
 ## :thought_balloon: Protected vs. unprotected pages?
 
