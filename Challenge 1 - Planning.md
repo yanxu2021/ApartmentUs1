@@ -141,7 +141,7 @@ Tools: Wireframe.cc
  8. Header.js
  9. Footer.js
 ## :thought_balloon: What forms will you need? What fields are on those forms? Do your forms match your database schema?
-1. sign up form
+1. sign up form-support by Devise
 2. create form(3. update form)
 
 ```javaScript
