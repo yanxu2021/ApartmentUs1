@@ -231,7 +231,15 @@ class App extends React.Component{
 }
 export default App
 ```
-
+## 4. Git add/commit/push to new branch-setup
+```
+$ git status
+$ git checkout -b main-ui
+$ git add .
+$ git commit -m "complete main ui"
+$ git push origin main-ui
+```
+Pull request and review or waiting for review, then merge and delete the branch
 
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%205%20-%20API.md)
