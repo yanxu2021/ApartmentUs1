@@ -223,7 +223,7 @@ export default New
 
 **User flow design:** 
 
-<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/UserFlowDesign.png" width="800"/>
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/UserFlowDesign.png" />
 
 **ApartmentUs User Flow**
 
