@@ -225,11 +225,31 @@ import Footer from "./components/Footer"
 </Router>
 ...
 ```
+
+*Review*
+```
+Router: The Router component wraps all the functionality of the routes. There should only be one Router per application.
+
+Switch: Switch helps manage which page is being displayed by preventing multiple routes from matching at once.
+
+Route: The Route component gets passed two props:
+  1. The URL path
+  2. The component to be displayed for that path
+```
 ## 4. API Seeds
 
-## 5. CRUD Functionality
+Seeds are mock data that developers can load into the backend database and used during for scaffolding an application. Seeds will live with the application file structure rather than on each developer's computer.
 
-## 6. API Endpoints 
+## 5. API Endpoints 
+
+Endpoints are the location from which APIs can access the resources they need to perform CRUD actions. Endpoints can be tested through request specs and model specs.
+
+## 6. CRUD Functionality
+
+### Adding the CRUD "create" functionality using mock data
+### Adding the CRUD "read" functionality using mock data
+### Adding the CRUD "update" functionality using mock data
+### Adding the CRUD "delete" functionality using mock data
 
 ## 7. API Validation
 
