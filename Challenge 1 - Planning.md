@@ -138,6 +138,7 @@ Tools: Wireframe.cc
  4. New.js
  5. Index.js
  6. Show.js
+ 7. Edit.js
 
  **Components:**
  1. Header.js
