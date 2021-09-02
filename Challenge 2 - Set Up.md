@@ -251,7 +251,7 @@ export default App
 ```
 .![setup](https://github.com/yanxu2021/ApartmentUs/blob/main/img/1.png)
 
-- Git add/commit/push to new branch-setup
+## 6. Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b setup
@@ -259,7 +259,8 @@ $ git add .
 $ git commit -m "complete setup"
 $ git push origin setup
 ```
-- Pull request and review or waiting for review, then merge and delete the branch"
+
+Pull request and review or waiting for review, then merge and delete the branch"
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%203%20-%20Authentication.md)
 
