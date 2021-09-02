@@ -9,6 +9,15 @@ We create a community for all people own or looking for an apartment, not only a
 
 **Community designed for Place, Purpose, and Profitability.**
 
+It can be tough to find the right place to call your next home, 
+and finding it before it gets snapped up by another renter can be even tougher. 
+In a competitive market, available apartments come and go in a moment's notice, 
+and a rental open house can feel more like a face-off with other renters than a tour of the space.
+
+Fortunately, we are here to provide more accurate availabilities and better search options, 
+which benefits you as more useful information becomes available with a tap of a finger. 
+We are not only making it easier to sign a lease, 
+but also sharing you more information about the community you are going to be invoved.
 ```
 As a developer, I have been commissioned to create an application where a user can see apartments that are available for rent. As a user, I can see a list of apartments. I can click on an apartment listing and see more information about that apartment. As a user, I can create an account and log in to the application. If I am logged in, I can add an apartment to the list. As a logged in user, I can see a list of all the apartments as well as just the apartments I added. If my work is acceptable to my client, I may also be asked to add the ability to remove an apartment from the list as well as edit the apartment information.
 - As a developer, I can create a Rails application with Devise functionality
