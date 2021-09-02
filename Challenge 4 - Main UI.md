@@ -225,8 +225,15 @@ import Footer from "./components/Footer"
 </Router>
 ...
 ```
+## 4. API Seeds
 
-## 4. Git add/commit/push to new branch-setup
+## 5. CRUD Functionality
+
+## 6. API Endpoints 
+
+## 7. API Validation
+
+## 8. Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b main-ui
