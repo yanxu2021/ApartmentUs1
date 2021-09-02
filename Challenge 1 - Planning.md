@@ -130,9 +130,7 @@ Tools: Wireframe.cc
 
  1. Home.js
 
-<p align="center">
-  <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
-</p>
+<img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
 
  2. AboutUs.js
  3. New.js
@@ -150,25 +148,9 @@ Tools: Wireframe.cc
 
 <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/UserFlowDesign.png" width="800"/>
 
-route path='/'	→	As un-registered guest	
-   →	route path='/index'	Able to see a list of available apartments.
-			→	route path='/show/:id'	Able to view an apartment with its details.
-			→	route path='/users/sign_up'	Able to register with a form. 
-			→	route path='/about'	Able to get more information.
-			→	route path='/notfound'	Able to get Infor when error occurs.
-					
-route path='/'	→	As registered user	
-   →	route path='/index'	Able to see a list of available apartments.
-			→	route path='/show/:id'	Able to view an apartment with its details. 
-			→	route path='/users/sign_in'	Able to log in with a form. 
-			→	route path='/users/sign_out'	Able to log out by clicking a button.
-			→	route path='/new'	Able to create a new apartment with a form.
-			→	route path='/show/:id'	Able to update any apartment created by this user  with a button and a form.
-			→	route path='/show/:id'	Able to read all apartments created by this user.
-			→	route path='/show/:id'	Able to delete any apartment created by this user with a button.
-			→	route path='/about'	Able to get more information.
-			→	route path='/notfound'	Able to get Infor when error occurs.
-![image](https://user-images.githubusercontent.com/77746251/131761512-d8f7162e-8a50-4193-bc47-8b67b652849c.png)
+**ApartmentUs User Flow**
+
+![image](https://github.com/yanxu2021/ApartmentUs/blob/main/img/userflow.png)
 
 
 ## :thought_balloon: Protected vs. unprotected pages?
