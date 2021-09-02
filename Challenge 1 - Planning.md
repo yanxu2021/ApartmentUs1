@@ -142,7 +142,7 @@ Tools: Wireframe.cc
  9. Footer.js
 ## :thought_balloon: What forms will you need? What fields are on those forms? Do your forms match your database schema?
 1. sign up form
-2. create form
+2. create form(3. update form)
 
 ```javaScript
 import React, { Component } from 'react'
@@ -217,9 +217,6 @@ class New extends Component {
 
 export default New
 ```
-
-3. update form
-
 
 ## :thought_balloon: What are the user flows? What is the most important user flow of the application? Is this flow easy and intuitive for the user?
 **User flow** is the path taken by a prototypical user on a website or app to complete a task. The user flow takes them from their entry point through a set of steps towards a successful outcome and final action, such as purchasing a product.
