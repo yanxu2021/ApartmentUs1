@@ -78,7 +78,7 @@ Rails.application.routes.draw do
 end
 ```
 
-Git add/commit/push to new branch-setup
+## 7. Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b authentication
