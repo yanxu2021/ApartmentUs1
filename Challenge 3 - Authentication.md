@@ -23,9 +23,13 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
 Devise is a Rails gem that gives developers a collection of methods that create authorization and authentication. Using Devise to create a special model called User that gets Devise code injected into each new model instance. Just by running the setup commands to get Devise *sign in* and *sign up* forms as well as a lot of additional functionality.
 
+Navigate to `http://localhost:3000/users/sign_up` and see a sign up page.
+
+![user sign up](https://github.com/yanxu2021/ApartmentUs/blob/main/img/2.png)
+
 Navigate to `http://localhost:3000/users/sign_in` and see a log in page.
 
-Navigate to `http://localhost:3000/users/sign_up` and see a sign up page.
+![user log in](https://github.com/yanxu2021/ApartmentUs/blob/main/img/3.png)
 
 ## 4. Apartment Resource
 
@@ -73,8 +77,6 @@ Rails.application.routes.draw do
   devise_for :users
 end
 ```
-.![user sign up](https://github.com/yanxu2021/ApartmentUs/blob/main/img/2.png)
-.![user log in](https://github.com/yanxu2021/ApartmentUs/blob/main/img/3.png)
 
 Git add/commit/push to new branch-setup
 ```
