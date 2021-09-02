@@ -132,7 +132,10 @@ Tools: Wireframe.cc
  1. Home.js
 
 <img src="https://github.com/yanxu2021/ApartmentUs/blob/main/img/homepagewireframe.JPG" width="600"/>
-
+Improvement: 
+     1. Header elements: Home, Sign In, Register
+     2. Footer elements:Copyright, Terms&Conditions, Help, About Us
+     3. Home elements:See All the Apartment, Add Apartment, Read More(both of home marketing text and apartment gallery)
  2. AboutUs.js
  3. NotFound.js
  4. New.js
