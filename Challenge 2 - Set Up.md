@@ -101,14 +101,18 @@ Due to Rails convention, the React file structure lives in the **app/javascript/
 **Note:** While it may seem a bit confusing, the React components directory will be nested inside of the Rails components directory. The Rails component directory takes the place of the `src` directory in a typical React application.
 
 - Add Pages
-For this application, we are going to have three pages:
+For this application, we are going to have 7 pages:
 
 1. `Home.js`
 2. `AboutUs.js`
-3. `AddApartment.js`
+3. `NotFound.js`
+4. `New.js`
+5. `Index.js`
+6. `Show.js`
+7. `Edit.js`
 
 - Add an `<h3>` to each describing their intent
-- 
+
 **app/javascript/components/pages/Home.js**
 ```javascript
 import React from "react"
@@ -122,7 +126,7 @@ class Home extends React.Component {
 export default Home
 ```
 
-The other two are mostly the same.
+The other six are mostly the same.
 
 - In order to have multiple pages we need to add the React Router.
 
@@ -139,9 +143,14 @@ import {
   Route,
   Switch
 } from "react-router-dom"
+
 import Home from "./pages/Home"
 import AboutUs from "./pages/AboutUs"
-import AddApartment from "./pages/AddApartment"
+import NotFound from "./pages/NotFound"
+import New from "./pages/New"
+import Index from "./pages/Index"
+import Show from "./pages/Show"
+import Edit from "./pages/Edit"
 ```
 
 - Add the basic routes to allow for navigation.
@@ -152,7 +161,11 @@ import AddApartment from "./pages/AddApartment"
   <Switch>
     <Route exact path="/" component={ Home } />
     <Route path="/about" component={ AboutUs } />
-    <Route path="/add" component={ AddApartment } />
+    <Route path="/new" component={ New } />
+    <Route path="/index" component={ Index} />
+    <Route path="/show" component={ Show } />
+    <Route path="/edit" component={ Edit } />
+    <Route component={NotFound} />
   </Switch>
 </Router>
 ```
@@ -175,7 +188,7 @@ end
 ```
 Notice the "constraints" section. This states that all HTML traffic goes to `home#index` React app.
 
-- Add Navigation Components
+## 5. Add Navigation Components
 Using Reactstrap to add the navigation code.
 *app/javascript/components/App.js*
 ```javascript
@@ -190,7 +203,11 @@ import {
 import { Nav, NavItem } from "reactstrap"
 import Home from "./pages/Home"
 import AboutUs from "./pages/AboutUs"
-import AddApartment from "./pages/AddApartment"
+import NotFound from "./pages/NotFound"
+import New from "./pages/New"
+import Index from "./pages/Index"
+import Show from "./pages/Show"
+import Edit from "./pages/Edit"
 
 class App extends React.Component{
   render(){
@@ -205,13 +222,26 @@ class App extends React.Component{
             <NavLink to="/about">About Us</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/add">Add Apartment</NavLink>
+            <NavLink to="/new">Add Apartment</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/index">See all apartments</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/show/:id">Details about this apartment</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/edit">update the apartment</NavLink>
           </NavItem>
         </Nav>
         <Switch>
-          <Route exact path="/" component={ Home } />
-          <Route path="/about" component={ AboutUs } />
-          <Route path="/add" component={ AddApartment } />
+            <Route exact path="/" component={ Home } />
+            <Route path="/about" component={ AboutUs } />
+            <Route path="/new" component={ New } />
+            <Route path="/index" component={ Index} />
+            <Route path="/show" component={ Show } />
+            <Route path="/edit" component={ Edit } />
+            <Route component={NotFound} />
         </Switch>
       </Router>
     )
