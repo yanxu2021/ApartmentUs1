@@ -159,24 +159,6 @@ Tools: Wireframe.cc
 
 ![image](https://github.com/yanxu2021/ApartmentUs/blob/main/img/userflow.png)
 
-route path='/'	→	As un-registered guest	→	route path='/index'	Able to see a list of available apartments.
-			→	route path='/show/:id'	Able to view an apartment with its details.
-			→	route path='/users/sign_up'	Able to register with a form. 
-			→	route path='/about'	Able to get more information.
-			→	route path='/notfound'	Able to get Infor when error occurs.
-					
-	→	As registered user	→	route path='/index'	Able to see a list of available apartments.
-			→	route path='/show/:id'	Able to view an apartment with its details. 
-			→	route path='/users/sign_in'	Able to log in with a form. 
-			→	route path='/users/sign_out'	Able to log out by clicking a button.
-			→	route path='/new'	Able to create a new apartment with a form.
-			→	route path='/show/:id'	Able to update any apartment created by this user  with a button to a form.
-			→	route path='/myapartments'	Able to read all apartments created by this user.
-			→	route path='/show/:id'	Able to delete any apartment created by this user with a button.
-			→	route path='/about'	Able to get more information.
-			→	route path='/notfound'	Able to get Infor when error occurs.
-![image](https://user-images.githubusercontent.com/77746251/131768413-a5a55641-243c-4806-865c-00c394efbf7b.png)
-
 ## :thought_balloon: Protected vs. unprotected pages?
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
