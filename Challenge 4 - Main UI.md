@@ -87,7 +87,7 @@ This is good foundational code, **but** ultimately `App.js` is going to be in ch
 
 To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS as well, **className="logo" ,className="nav-bar" and className="nav-link"** used in header according to the layout of the Home.js wireframe.
 
-**app/javascript/components//components/Header.js**
+**app/javascript/components/components/Header.js**
 ```
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
@@ -167,6 +167,50 @@ header {
 }
 ```
 The * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers.
+
+Here to add `Foot.js` as well to implement UI according to the wireframe.
+
+**app/javascript/components/components/Footer.js**
+
+```
+import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
+
+class Footer extends Component{
+  render(){
+    return(
+      <footer>
+        <ul>
+          <NavLink to="/" className="nav-link">&copy; 2021 Yan</NavLink>
+        </ul>
+        <ul>
+          <NavLink to="/" className="nav-link">Home</NavLink>
+        </ul>
+        <ul>
+          <NavLink to="/about" className="nav-link">About Us</NavLink>
+        </ul>
+      </footer>
+    )
+  }
+}
+export default Footer
+
+```
+
+**/app/assets/stylesheets/application.scss** 
+
+```
+/* ---FOOTER--- */
+footer {
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#A2F84B;
+  display: flex;
+  justify-content: space-between;
+}
+```
 
 To use header, edit **app/javascript/components/App.js**
 ```
