@@ -231,13 +231,13 @@ export default New
 
 ## :thought_balloon: Protected vs. unprotected pages?
 
-**A protected page** is a page where normal users are prevented from editing and/or moving at all. Only a user with sysop permissions can edit or move a protected page. Likewise only sysop users can protect a page in the first place, or unprotect the page to lift the restriction.
+**A protected page** is a page where normal users are prevented from editing and/or moving at all. 
 
-**A sysop (/ˈsɪsɒp/; an abbreviation of system operator) is an administrator of a multi-user computer system**, such as a bulletin board system (BBS) or an online service virtual community. The phrase may also be used to refer to administrators of other Internet-based network services.
+Almost every web application require some form of authentication to prevent unauthorized users from having access to the inner workings of the applications.
 
-**Set Up Protected Routes in React Application**
-Require authentication for users to access your page to restrict user access to certain pages or you have your whole application behind a login.
-1. Installed react-router-dom for routing.
+**Set up an authentication route and protect other routes from been accessed by unauthorized users.**
+Require authentication for users to access pages to restrict user access to certain pages or have the whole application behind a login.
+1. React-router will handle routing, i.e switching from one page to another within the web application. Installed react-router-dom for routing.
 2. Achieve protection by creating a custom component that will handle incoming requests. The purpose of the component will be very simple. If the user has been authenticated, render the passed component. Otherwise, redirect them to the login page.
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
