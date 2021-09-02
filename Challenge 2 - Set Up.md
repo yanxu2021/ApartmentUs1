@@ -251,7 +251,7 @@ export default App
 ```
 .![setup](https://github.com/yanxu2021/ApartmentUs/blob/main/img/1.png)
 
-## 5. Git add/commit/push to new branch-setup
+- Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b setup
