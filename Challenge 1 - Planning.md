@@ -238,7 +238,7 @@ Almost every web application require some form of authentication to prevent unau
 **Set up an authentication route and protect other routes from been accessed by unauthorized users.**
 Require authentication for users to access pages to restrict user access to certain pages or have the whole application behind a login.
 1. React-router will handle routing, i.e switching from one page to another within the web application. Installed react-router-dom for routing.
-2. Achieve protection by creating a custom component that will handle incoming requests. The purpose of the component will be very simple. If the user has been authenticated, render the passed component. Otherwise, redirect them to the login page.
+2. Protected Routes are routes that can only be accessed if a condition is met(usually, if user is properly authenticated). It returns a Route that either renders a component or redirects a user to another route based on a set condition.
 
 [ Go to Next Step ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
