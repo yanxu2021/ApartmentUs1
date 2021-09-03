@@ -79,7 +79,25 @@ end
 ```
 
 ## 7 Created Seeds
+
+**Managing Seeds**
+
+To add seeds to the database, first we must create a database, create a model or resource, and run a migration.
+
+To add seeds run the command `$ rails db:seed` in the terminal.
+
+From there you can drop into the Rails console `$ rails c` and look for the user and apartment with `User.all` and `Apartment.all`. There will be a collection of cat hashes with unique ids, created_at timestamps, and updated_at timestamps.
+
+![seeds](https://github.com/yanxu2021/ApartmentUs/blob/main/img/seeds.png)
+
+**Troubleshooting**
+
+If something goes awry with the seeds file, we can use a couple commands to simply reset the database.
+
 ```
+$ rails db:drop
+$ rails db:create
+$ rails db:migrate
 $ rails db:seed
 ```
 
