@@ -202,7 +202,7 @@ To set the inputs to state need a `handleChange` method to be called on every in
 
 ## 7. Testing
 
-## 8. Git add/commit/push to new branch-setup
+## 8. Git add/commit/push to new branch-main-ui
 ```
 $ git status
 $ git checkout -b main-ui
