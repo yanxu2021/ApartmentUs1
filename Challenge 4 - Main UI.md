@@ -154,24 +154,20 @@ import Header from "./components/Header"
 ...
 ```
 
-## 4. API Seeds
-
-**Seeds** are mock data that developers can load into the backend database and used during for scaffolding an application. Seeds will live with the application file structure rather than on each developer's computer.
-
-## 5. API Endpoints 
+## 4. API Endpoints 
 
 Endpoints are the location from which APIs can access the resources they need to perform CRUD actions. Endpoints can be tested through request specs and model specs.
 
-## 6. CRUD Functionality
+## 5. CRUD Functionality
 
 ### Adding the CRUD "create" functionality using mock data
 ### Adding the CRUD "read" functionality using mock data
 ### Adding the CRUD "update" functionality using mock data
 ### Adding the CRUD "delete" functionality using mock data
 
-## 7. API Validation
+## 6. API Validation
 
-## 8. Git add/commit/push to new branch-setup
+## 7. Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b main-ui
