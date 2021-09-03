@@ -154,13 +154,46 @@ import Header from "./components/Header"
 ...
 ```
 
-## 4. API Endpoints 
-
-Endpoints are the location from which APIs can access the resources they need to perform CRUD actions. Endpoints can be tested through request specs and model specs.
-
 ## 5. CRUD Functionality
 
 ### Adding the CRUD "create" functionality using mock data
+- Apartment create form
+
+Utilize Reactstap to help with form styling. Reactstrap has an element called `<FormGroup>`. Nested in each `<FormGroup>` tag there will be a label and an input. Each input tag will take two attributes. The first is `type` that describes what information can be entered into the field. The second is `name` that matches the appropriate cat attribute. In this example the name of the input is "name" in reference to our cat name attribute.
+
+Each cat attribute will have its own `<FormGroup>` inside of a single `<Form>` tag.
+
+**components/pages/New.js**
+```javascript
+<Form>
+  <FormGroup>
+    <Label>Name</Label>
+    <Input
+      type="text"
+      name="name"
+    />
+  </FormGroup>
+</Form>
+```
+
+Complete the process by importing the Reactstrap components.
+
+**src/pages/CatNew.js**
+```javascript
+import {
+  Form,
+  FormGroup,
+  Input,
+  Label
+} from 'reactstrap'
+```
+
+Here need to collect the user input and transmit the data as a set. Add a `value`, and an `onChange` attribute to the inputs. By adding a form object to state with reference `this.state.form` and have a complete apartment object that can be passed to `App.js` as a single unit rather than as individual values.
+
+To set the inputs to state need a `handleChange` method to be called on every input.
+
+- Passing Apartments to App.js
+
 ### Adding the CRUD "read" functionality using mock data
 ### Adding the CRUD "update" functionality using mock data
 ### Adding the CRUD "delete" functionality using mock data
