@@ -78,7 +78,7 @@ Rails.application.routes.draw do
 end
 ```
 
-## 7 Created Seeds
+## 7. Created Seeds
 
 **Managing Seeds**
 
