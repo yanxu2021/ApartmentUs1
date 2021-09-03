@@ -12,13 +12,29 @@ The Fetch API is a tool that's built into most modern browsers on the window obj
 and enables us to make HTTP requests very easily using JavaScript promises.
 ```
 
-Rails use Active Record to post that information to the database. 
+There will be a series of fetch requests to match the functionality required in application. To start, load up all the apartments from the database and save them into state. The React lifecycle method `componentDidMount()` will run as soon as the app loads and handle fetching all the apartments.
 
-We already have a method that logs the form data for our new apartment, so we can convert that method into a post request. We are making a request to the post route of our Rails app. Remembering RESTful routes, we know that we need to make a **POST** request to a route called **"/apartments"** to create a new cat.
+Rails use Active Record to post that information to the database. Make a **POST** request to a route called **"/apartments"** to create a new apartment.
 
-Format the request: send the information in the body of the request, and specify the header to accept JSON, and specify the HTTP method.
+**Format the request:** send the information in the body of the request, and specify the header to accept JSON, and specify the HTTP method.
 
 The fetch call will return a Promise. If the Promise is resolved successfully then call the `readApartment` method to reload the apartments array that will include the new apartment.
+
+**app/javascript/components/App.js**
+
+```
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      apartments: []//Start with an empty array
+    }
+  }
+  
+  componentDidMount(){
+    this.readApartment()
+  }
+```
 
 **app/javascript/components/App.js**
 
