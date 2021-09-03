@@ -160,4 +160,57 @@ Require authentication for users to access pages to restrict user access to cert
 1. React-router will handle routing, i.e switching from one page to another within the web application. Installed react-router-dom for routing.
 2. Protected Routes are routes that can only be accessed if a condition is met(usually, if user is properly authenticated). It returns a Route that either renders a component or redirects a user to another route based on a set condition.
 
+**Login/Logout Button** With login status and routes in React component, add a button to log the user out or in.
+**app/javascript/components/components/Header.js**
+```
+...
+    const {
+      logged_in,
+      new_user_route,
+      sign_in_route,
+      sign_out_route
+    } = this.props
+...
+
+
+        <div className="nav-bar">
+          <NavLink to="/" className="nav-link">Home</NavLink>
+          {logged_in && <a href={sign_out_route} className="nav-link">Sign Out</a>}
+          {!logged_in && <a href={sign_in_route} className="nav-link">Sign In</a>}
+          {!logged_in && <a href={new_user_route} className="nav-link">Register</a>}
+        </div>
+...
+```
+
+**app/javascript/components/App.js**
+```
+...
+          {this.props.logged_in &&
+            <Route path="/new" render={(props) => {
+              return <New createApartment={this.createApartment} current_user={this.props.current_user} />
+            }}/>
+          }
+          
+          {this.props.logged_in &&
+            <Route path="/myapartments" render={(props) => {
+              let apartments = this.state.apartments.filter(a => a.id === this.props.current_user.id)
+              return <MyApartment apartments={apartments} />
+            }}/>
+          }
+          
+          {this.props.logged_in &&
+            <Route path="/edit/:id" render={(props) => {
+              let apartment = this.state.apartments.find(apartment => apartment.id === +props.match.params.id)
+              return (
+                <Edit
+                  editApartment={this.editApartment}
+                  current_user={this.props.current_user}
+                  apartment={apartment}
+                />
+              )
+            }}/> 
+          }
+...
+```
+
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
