@@ -75,5 +75,3 @@ Use data mocks to work with real data, but without the complexity of API integra
 Finish off your application by hooking up the Database via API endpoints
 
 Is everything secure?
-
-[ Challenge 6 - Testing with Jest and Enzyme ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%206%20-%20Testing%20with%20Jest%20and%20Enzyme.md)
