@@ -1,6 +1,6 @@
 # Challenge 5 - API
 
-Finish off apartment application by hooking up the Database via API endpoints. It is time to create/read/update new apartments by users in database! Also need to think about: is everything secure?
+## 1. Finish off apartment application by hooking up the Database via API endpoints. It is time to create/read/update new apartments by users in database! 
 
 1. Implementing fetch to request data from Rails API
 2. Setting state with the JSON data that is returned from the fetch request
@@ -97,6 +97,49 @@ readApartment = () => {
     .catch(errors => console.log("edit errors:", errors))
   }
 ```
+## 2. API Validation
+
+## 3. Testing
+For testing with Jest and Enzyme:
+```
+$ yarn add jest
+$ yarn add enzyme (the long command from the syllabus)
+```
+
+Add this to your package.json
+```
+  "jest": {
+    "roots": [
+      "app/javascript/components"
+    ]
+  }
+````
+
+If have images in app, then need to mock them. In package.json add this to the previous code snippet:
+
+```
+  "jest": {
+    "roots": [
+      "app/javascript/components"
+    ],
+  "moduleNameMapper": {
+      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": 
+      "<rootDir>app/javascript/components/fileMock.js",
+      "\\.(css|less)$": "<rootDir>app/javascript/components/fileMock.js"
+    }
+  }
+```
+## 4. Is everything secure?Protected vs. Unprotected pages?
+
+**A protected page** is a page where normal users are prevented from editing and/or moving at all. 
+
+Almost every web application require some form of authentication to prevent unauthorized users from having access to the inner workings of the applications.
+
+**Set up an authentication route and protect other routes from been accessed by unauthorized users.**
+Require authentication for users to access pages to restrict user access to certain pages or have the whole application behind a login.
+1. React-router will handle routing, i.e switching from one page to another within the web application. Installed react-router-dom for routing.
+2. Protected Routes are routes that can only be accessed if a condition is met(usually, if user is properly authenticated). It returns a Route that either renders a component or redirects a user to another route based on a set condition.
+
 
 
 
