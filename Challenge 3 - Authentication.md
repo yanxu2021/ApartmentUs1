@@ -80,11 +80,13 @@ end
 
 ## 7. Created Seeds
 
+**Seeds** are mock data that developers can load into the backend database and used during for scaffolding an application. Seeds will live with the application file structure rather than on each developer's computer.
+
 **Managing Seeds**
 
 To add seeds to the database, first we must create a database, create a model or resource, and run a migration.
 
-To add seeds run the command `$ rails db:seed` in the terminal.
+To add seeds run the command `$ rails db:seed` in the terminal. *One thing to keep in mind is that every time your run `$ rails db:seed` the code will execute and add data to your database.*
 
 From there you can drop into the Rails console `$ rails c` and look for the user and apartment with `User.all` and `Apartment.all`. There will be a collection of cat hashes with unique ids, created_at timestamps, and updated_at timestamps.
 
@@ -100,8 +102,29 @@ $ rails db:create
 $ rails db:migrate
 $ rails db:seed
 ```
+## 8. API CORS and API Endpoints
+CORS stands for Cross-Origin Resource Sharing. CORS manages requests that occur between decoupled applications, or from another "origin". Browsers have security built in to protect users from submitting their data to servers that they are not intending to, so we have to tell the frontend that the backend is indeed the correct place for it to be communicating with.
 
-## 8. Git add/commit/push to new branch-authentication
+**Allowing External Requests and skip Authenticity Token**
+
+Update the application controller to allow requests from applications outside the Rails application.
+
+To do this, add a line to the ApplicationController:
+
+**app/controllers/application_controller.rb**
+```ruby
+class ApplicationController < ActionController::Base
+  skip_before_action :verify_authenticity_token
+end
+```
+
+**API Endpoints**
+Endpoints are the location from which APIs can access the resources they need to perform CRUD actions. Endpoints can be tested through request specs and model specs. Implementing request specs in a Rails application. Implementing appropriate endpoints in the apartments controller
+
+
+
+
+## 9. Git add/commit/push to new branch-authentication
 ```
 $ git status
 $ git checkout -b authentication
