@@ -85,39 +85,27 @@ That is followed with some conditional rendering to display the appropriate link
 
 This is good foundational code, **but** ultimately `App.js` is going to be in charge of "big picture" functionality like routing and fetch calls so it would make more sense to move the sign_in and sign_out routes to another component like a Header or Nav.
 
-To do this in Header, Create app logo-logo.jpg, **../assets/logo.jpg** and set up CSS as well, **className="logo" ,className="nav-bar" and className="nav-link"** used in header according to the layout of the Home.js wireframe.
-
 **app/javascript/components/components/Header.js**
 ```
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/logo.jpg'
+...
 
 class Header extends Component {
-  render() {
+render() {
     const {
       logged_in,
       new_user_route,
-      sign_in_route
+      sign_in_route,
+      sign_out_route
     } = this.props
     return (
       <header>
-        <NavLink to="/">
-          <img src={logo} alt="logo" className="logo"/>
-        </NavLink>
         <div className="nav-bar">
-           <ul>
-            {logged_in &&
-              <a href={new_user_route} className="nav-link">Sign Up/</a>
-            }
-            {!logged_in &&
-              <a href={sign_in_route} className="nav-link">Sign In</a>
-            }
-          <ul>
-            <NavLink to="/new" className="nav-link">Add Apartment</NavLink>
-          </ul>
-
-          </ul>
+          <NavLink to="/" className="nav-link">Home</NavLink>
+          {logged_in && <a href={sign_out_route} className="nav-link">Sign Out</a>}
+          {!logged_in && <a href={sign_in_route} className="nav-link">Sign In</a>}
+          {!logged_in && <a href={new_user_route} className="nav-link">Register</a>}
         </div>
       </header>
     )
@@ -129,16 +117,6 @@ export default Header
 ```
 @import 'bootstrap'
 
-/* ---ALL ELEMENTS--- */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  text-align: center;
-}
-
 /* ---HEADER--- */
 header {
   display: flex;
@@ -148,10 +126,7 @@ header {
   width: 100%;
   top: 0
 }
-.logo {
-  height: 150px;
-  align-items: center;
-}
+
 .nav-bar {
   display: flex;
   align-items: flex-end;
@@ -166,76 +141,19 @@ header {
   text-decoration: underline;
 }
 ```
-The * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers.
 
-Here to add `Foot.js` as well to implement UI according to the wireframe.
-
-**app/javascript/components/components/Footer.js**
-
-```
-import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
-
-class Footer extends Component{
-  render(){
-    return(
-      <footer>
-        <ul>
-          <NavLink to="/" className="nav-link">&copy; 2021 Yan</NavLink>
-        </ul>
-        <ul>
-          <NavLink to="/" className="nav-link">Home</NavLink>
-        </ul>
-        <ul>
-          <NavLink to="/about" className="nav-link">About Us</NavLink>
-        </ul>
-      </footer>
-    )
-  }
-}
-
-export default Footer
-```
-
-**/app/assets/stylesheets/application.scss** 
-
-```
-/* ---FOOTER--- */
-footer {
-  font-size: 15px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color:#A2F84B;
-  display: flex;
-  justify-content: space-between;
-}
-```
-
-To use header and footer, edit **app/javascript/components/App.js**
+To use header, edit **app/javascript/components/App.js**
 ```
 ...
 import Header from "./components/Header"
-import Footer from "./components/Footer"
 ...
 <Router>
   <Header/>
   ...
-  <Footer/>
 </Router>
 ...
 ```
 
-*Review*
-```
-Router: The Router component wraps all the functionality of the routes. There should only be one Router per application.
-
-Switch: Switch helps manage which page is being displayed by preventing multiple routes from matching at once.
-
-Route: The Route component gets passed two props:
-  1. The URL path
-  2. The component to be displayed for that path
-```
 ## 4. API Seeds
 
 Seeds are mock data that developers can load into the backend database and used during for scaffolding an application. Seeds will live with the application file structure rather than on each developer's computer.
