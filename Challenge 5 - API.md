@@ -2,9 +2,12 @@
 
 Finish off apartment application by hooking up the Database via API endpoints. It is time to create new apartments by users in database! Also need to think about: is everything secure?
 
+1. Implementing fetch to request data from Rails API
+2. Setting state with the JSON data that is returned from the fetch request
+
 Rails use Active Record to post that information to the database. 
 
-We already have a method that logs the form data for our new apartment, so we can convert that method into a post request. We are making a request to the post route of our Rails app. Remembering RESTful routes, we know that we need to make a **POST** request to a route called "/apartments" to create a new cat.
+We already have a method that logs the form data for our new apartment, so we can convert that method into a post request. We are making a request to the post route of our Rails app. Remembering RESTful routes, we know that we need to make a **POST** request to a route called **"/apartments"** to create a new cat.
 
 Format the request: send the information in the body of the request, and specify the header to accept JSON, and specify the HTTP method.
 
