@@ -198,40 +198,7 @@ To set the inputs to state need a `handleChange` method to be called on every in
 ### Adding the CRUD "update" functionality using mock data
 ### Adding the CRUD "delete" functionality using mock data
 
-## 6. API Validation
-
-## 7. Testing
-For testing with Jest and Enzyme:
-```
-$ yarn add jest
-$ yarn add enzyme (the long command from the syllabus)
-```
-
-Add this to your package.json
-```
-  "jest": {
-    "roots": [
-      "app/javascript/components"
-    ]
-  }
-````
-
-If have images in app, then need to mock them. In package.json add this to the previous code snippet:
-
-```
-  "jest": {
-    "roots": [
-      "app/javascript/components"
-    ],
-  "moduleNameMapper": {
-      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": 
-      "<rootDir>app/javascript/components/fileMock.js",
-      "\\.(css|less)$": "<rootDir>app/javascript/components/fileMock.js"
-    }
-  }
-```
-
-## 8. Git add/commit/push to new branch-main-ui
+## 6. Git add/commit/push to new branch-main-ui
 ```
 $ git status
 $ git checkout -b main-ui
