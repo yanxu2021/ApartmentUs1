@@ -156,7 +156,7 @@ import Header from "./components/Header"
 
 ## 4. API Seeds
 
-Seeds are mock data that developers can load into the backend database and used during for scaffolding an application. Seeds will live with the application file structure rather than on each developer's computer.
+**Seeds** are mock data that developers can load into the backend database and used during for scaffolding an application. Seeds will live with the application file structure rather than on each developer's computer.
 
 ## 5. API Endpoints 
 
