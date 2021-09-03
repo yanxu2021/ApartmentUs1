@@ -224,7 +224,8 @@ If have images in app, then need to mock them. In package.json add this to the p
       "app/javascript/components"
     ],
   "moduleNameMapper": {
-      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>app/javascript/components/fileMock.js",
+      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": 
+      "<rootDir>app/javascript/components/fileMock.js",
       "\\.(css|less)$": "<rootDir>app/javascript/components/fileMock.js"
     }
   }
