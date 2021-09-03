@@ -101,7 +101,7 @@ $ rails db:migrate
 $ rails db:seed
 ```
 
-## 8. Git add/commit/push to new branch-setup
+## 8. Git add/commit/push to new branch-authentication
 ```
 $ git status
 $ git checkout -b authentication
