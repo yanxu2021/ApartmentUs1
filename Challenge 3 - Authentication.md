@@ -78,7 +78,12 @@ Rails.application.routes.draw do
 end
 ```
 
-## 7. Git add/commit/push to new branch-setup
+## 7 Created Seeds
+```
+$ rails db:seeds
+```
+
+## 8. Git add/commit/push to new branch-setup
 ```
 $ git status
 $ git checkout -b authentication
