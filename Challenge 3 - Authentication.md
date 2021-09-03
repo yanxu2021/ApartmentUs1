@@ -80,7 +80,7 @@ end
 
 ## 7 Created Seeds
 ```
-$ rails db:seeds
+$ rails db:seed
 ```
 
 ## 8. Git add/commit/push to new branch-setup
