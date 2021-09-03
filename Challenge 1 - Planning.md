@@ -241,7 +241,7 @@ export default New
 
 ![image](https://github.com/yanxu2021/ApartmentUs/blob/main/img/userflow.png)
 
-**tip**- view routes info in a text file, use the command below. This will put the file in the previous directory, so if the app is on desktop then the text file will be on desktop. No more resizing terminal or scrolling all the way up.
+**Tip**- view routes info in a text file, use the command below. This will put the file in the previous directory, so if the app is on desktop then the text file will be on desktop. No more resizing terminal or scrolling all the way up.
 
 ```
 $ rails routes > ../apartment_app_routes.txt
