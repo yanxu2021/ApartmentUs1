@@ -213,4 +213,14 @@ Require authentication for users to access pages to restrict user access to cert
 ...
 ```
 
+## 5. Git add/commit/push to new branch-api
+```
+$ git status
+$ git checkout -b api
+$ git add .
+$ git commit -m "complete api"
+$ git push origin api
+```
+Pull request and review or waiting for review, then merge and delete the branch
+
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
