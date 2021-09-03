@@ -48,7 +48,7 @@ As a developer, I have been commissioned to create an application where a user c
 
 [ Challenge 1 - Planning ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%201%20-%20Planning.md)
 
-Q&A, user stories, data schema, wireframe, 
+Q&A, user stories, data schema, wireframe, and more!
 
 [ Challenge 2 - Set Up ](https://github.com/yanxu2021/ApartmentUs/blob/main/Challenge%202%20-%20Set%20Up.md)
 
