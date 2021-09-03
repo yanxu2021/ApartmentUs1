@@ -178,7 +178,7 @@ Each cat attribute will have its own `<FormGroup>` inside of a single `<Form>` t
 
 Complete the process by importing the Reactstrap components.
 
-**src/pages/CatNew.js**
+**components/pages/New.js**
 ```javascript
 import {
   Form,
