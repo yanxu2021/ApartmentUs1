@@ -99,6 +99,24 @@ readApartment = () => {
 ```
 ## 2. API Validation
 
+As developers we have to think about what happens when things don't go as we expect. What if data is submitted to our API that isn't complete, or has something else that causes it to be invalid? This could cause harm to our database or affect the user experience.
+
+- Implementing model validations
+- Implementing model specs in a Rails application
+- Implementing request specs in a Rails application
+
+**app/models/apartment.rb**
+```
+class Apartment < ApplicationRecord
+  belongs_to :user
+  validates :street, :city, :state, :manager, :email, :price, :bedrooms, :bathrooms, :pets, :user_id, presence: true
+end
+```
+
+```
+$ rspec spec/models
+```
+
 ## 3. Testing
 For testing with Jest and Enzyme:
 ```
@@ -139,9 +157,5 @@ Almost every web application require some form of authentication to prevent unau
 Require authentication for users to access pages to restrict user access to certain pages or have the whole application behind a login.
 1. React-router will handle routing, i.e switching from one page to another within the web application. Installed react-router-dom for routing.
 2. Protected Routes are routes that can only be accessed if a condition is met(usually, if user is properly authenticated). It returns a Route that either renders a component or redirects a user to another route based on a set condition.
-
-
-
-
 
 [ Go Back ](https://github.com/yanxu2021/ApartmentUs/blob/main/README.md)
