@@ -1,6 +1,8 @@
 # Challenge 5 - API
 
-## 1. Finish off apartment application by hooking up the Database via API endpoints. It is time to create/read/update new apartments by users in database! 
+## 1. Finish off apartment application by hooking up the Database via API endpoints. 
+
+It is time to create/read/update new apartments by users in database! 
 
 1. Implementing fetch to request data from Rails API
 2. Setting state with the JSON data that is returned from the fetch request
