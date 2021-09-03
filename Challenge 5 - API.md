@@ -5,6 +5,13 @@ Finish off apartment application by hooking up the Database via API endpoints. I
 1. Implementing fetch to request data from Rails API
 2. Setting state with the JSON data that is returned from the fetch request
 
+```
+What is fetch in React js?
+The most accessible way to fetch data with React is using the Fetch API. 
+The Fetch API is a tool that's built into most modern browsers on the window object ( window. fetch ) 
+and enables us to make HTTP requests very easily using JavaScript promises.
+```
+
 Rails use Active Record to post that information to the database. 
 
 We already have a method that logs the form data for our new apartment, so we can convert that method into a post request. We are making a request to the post route of our Rails app. Remembering RESTful routes, we know that we need to make a **POST** request to a route called **"/apartments"** to create a new cat.
