@@ -8,7 +8,7 @@ It is time to create/read/update new apartments by users in database!
 2. Setting state with the JSON data that is returned from the fetch request
 
 ```
-What is fetch in React js?
+Review: what is fetch in React js?
 The most accessible way to fetch data with React is using the Fetch API. 
 The Fetch API is a tool that's built into most modern browsers on the window object ( window. fetch ) 
 and enables us to make HTTP requests very easily using JavaScript promises.
