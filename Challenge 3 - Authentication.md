@@ -121,8 +121,29 @@ end
 **API Endpoints**
 Endpoints are the location from which APIs can access the resources they need to perform CRUD actions. Endpoints can be tested through request specs and model specs. Implementing request specs in a Rails application. Implementing appropriate endpoints in the apartments controller
 
+Create endpoints for the actions in the React application. 
 
+**app/controllers/apartments_controller.rb**
+```ruby
+class ApartmentsController < ApplicationController
 
+  def index
+  end
+
+  def create
+  end
+
+  def update
+  end
+
+  def destroy
+  end
+
+end
+```
+Start with the 'index' route, which used to return all of the cats that the application knows about.
+
+Then finish create, update, destroy route.
 
 ## 9. Git add/commit/push to new branch-authentication
 ```
